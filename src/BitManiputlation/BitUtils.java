@@ -15,11 +15,14 @@ public final class BitUtils {
      */
     public static double similarity(int dec1, int dec2){
         int match = 0;
-        String s1 = Integer.toBinaryString(dec1), s2 = Integer.toBinaryString(dec2);
-        for(int i = 1; i <= Math.min(s1.length(), s2.length()); i++)
-            if(s1.charAt(s1.length() - i) == s2.charAt(s2.length() - i))
+        String xorString = Integer.toBinaryString(dec1 ^ dec2);
+        //mismatches are signaled by having a 1 at the position in xorString
+        for(char c : xorString.toCharArray())
+            if(c == '1')
                 ++match;
-        return (double)match / Math.max(s1.length(), s2.length());
+        int dec1Length = (int)Math.floor(Math.log(dec1) / Math.log(2)) + 1,
+            dec2Length = (int)Math.floor(Math.log(dec2) / Math.log(2)) + 1;
+        return (double)match / Math.max(dec1Length, dec2Length);
     }
 
     /** Computes the n^th magic number of a given base. A magic number of base <i>b</i> is any linear combination of
@@ -44,34 +47,62 @@ public final class BitUtils {
     }
 
     /** Computes new base-10 integer by rotating its base-2 equivalent left or right specified number of shifts.
-     * Note that MSB is always 1 in base-2 for this case.
+     * Note that MSB is always 1 in base-2 for this case, and only magnitude is considered, so sign stays the same.
      * @param dec Base-10 integer
      * @param rotate Number of shifts to the left (negative), right (positive) or no shifts (0) done to binary version of <code>dec</code>
      * @return New base-10 number that equals <code>dec</code> after rotating
      */
     public static int rotate(int dec, int rotate){
         String s = Integer.toBinaryString(dec);
-        int output = dec, carryOver = 0, netRotate = rotate %  s.length();
-        if(netRotate == 0)
+        int output = Math.abs(dec), //output initialized to absolute value of dec
+            carryOver = 0, //bits that fall off the edge during rotation are re-added at the opposite end of number
+            netRotate = Math.abs(rotate) %  s.length(); //absolute number of shifts in either direction relative to binary string
+        //nothing changed
+        if(dec == 0)
+            return 0;
+        if(rotate == 0)
             return dec;
-        else if(netRotate < 0){
-            for(int i = 0; i <= -netRotate - 1; i++)
+        //left rotation by 1 or more bits
+        else if(rotate < 0){
+            for(int i = 0; i <= netRotate - 1; i++)
                 if(s.charAt(i) == '1'){
                     output -= Math.pow(2, s.length() - 1 - i);
-                    carryOver += Math.pow(2, -netRotate - 1 - i);
+                    carryOver += Math.pow(2, netRotate - 1 - i);
                 }
-            output = output << -netRotate;
+            output <<= netRotate;
             output += carryOver;
+        //right rotation by 1 or more bits
         } else {
             for(int i = 0; i <= netRotate - 1; i++)
-                if(s.charAt(s.length() - 1 - i) == '1'){
-                    output -= Math.pow(2, i);
+                if(s.charAt(s.length() - 1 - i) == '1')
                     carryOver += Math.pow(2, s.length() - netRotate + i);
-                }
-            output = output >> netRotate;
-            output += carryOver;
+            output >>=  netRotate;
+            output += carryOver ;
         }
+        output *= Math.signum(rotate);
         return output;
+    }
+
+    /** Rotates base-2 version of given <code>BigInteger</code>.
+     * @param dec A given <code>BigInteger</code>
+     * @param rotate Number of shifts to the left (negative), right (positive) or no shifts (0) done to binary version of <code>dec</code>
+     * @return New base-10 <code>BigInteger</code> that equals <code>dec</code> after rotating
+     */
+    public static BigInteger rotateBigInteger(BigInteger dec, long rotate){
+        try {
+            String s = Long.toBinaryString(dec.longValueExact());
+            long netRotate = Math.abs(rotate) % s.length();
+            //nothing changed
+            if(dec.longValueExact() == 0)
+                return BigInteger.ZERO;
+            if(rotate == 0)
+                return BigInteger.valueOf(dec.longValueExact());
+            if(netRotate > s.length() / 2)
+                return BigInteger.valueOf(BitUtils.rotate(dec.intValueExact(), -(int)(s.length() - netRotate)));
+            return BigInteger.valueOf(BitUtils.rotate(dec.intValueExact(), (int)netRotate) * Long.signum(rotate));
+        } catch (ArithmeticException e) {
+            return null;
+        }
     }
 
     /** Swaps each bit of 2 to an even power with its immediate left bit, which is 2 to an odd power
@@ -85,7 +116,7 @@ public final class BitUtils {
         if(absDec == 1)
             return 0;
         String s = Integer.toBinaryString(dec);
-        int output = 0;
+        int output;
         int evenPowerBinary = IntStream.rangeClosed(0, (int)Math.ceil((double)s.length() / 2))
                 .parallel()
                 .boxed()
@@ -98,7 +129,7 @@ public final class BitUtils {
                 .mapToInt(n -> (int)Math.pow(2, n * 2 - 1))
                 .sum() | absDec;
         output += oddPowerBinary >> 1;
-        return output;
+        return Integer.signum(dec) * output;
     }
 
     /** Computes minimum number of flops needed for one base-10 integer to transform into another base-10 integer in
@@ -121,12 +152,60 @@ public final class BitUtils {
 
     /** Computes the next sparse number after <code>dec</code>. A sparse number in binary form has no 2 adjacent 1-bits.
      * @param dec Base-10 integer
+     * @return Whether <code>dec</code> is a sparse number or not
+     */
+    public static boolean isSparse(int dec){
+        int absDec = Math.abs(dec);
+        while(absDec > 0) {
+            //right shifts absDec until LSB is 1
+            while(absDec % 2 == 0)
+                absDec >>= 1;
+            absDec >>= 1; //finds next digit left of current LSB
+            if(absDec % 2 == 1) //absDec still odd implies next LSB is still 1 and did not change
+                return false;
+        }
+        return true;
+    }
+
+    /** Computes the next sparse number after <code>dec</code>. A sparse number in binary form has no 2 adjacent 1-bits.
+     * Credit to <i>kk_angel</i>.
+     * @param dec Base-10 integer
      * @return Next closest sparse number
      */
-    public static int nextSparseNumber(int dec){ return -1; }
+    public static int nextSparseNumber(int dec){
+        StringBuilder sb = new StringBuilder(Integer.toBinaryString(dec));
+        char[] trailingZeroes;
+        //index in StringBuilder at the last occurrence of adjacent 1's
+        int zeroIndex;
+        //edge cases
+        if(dec < 0)
+            return -1;
+        if(dec == 0)
+            return 1;
+        //dec is 111111...111, so the next sparse number is 10000...000 with length elongated by 1
+        if(sb.lastIndexOf("0") == -1)
+            return dec + 1;
+        if(BitUtils.isSparse(dec)) {
+            int index001 = sb.lastIndexOf("001");
+            if (index001 >= 1) {
+                sb.setCharAt(index001 + 1, '1');
+                trailingZeroes = new char[sb.length() - index001 - 1];
+                Arrays.fill(trailingZeroes, '0');
+                sb.replace(index001 + 2, sb.length(), String.valueOf(trailingZeroes));
+                return Integer.parseInt(sb.toString(), 2);
+            } else //dec is 1010101...101
+                return (int) Math.pow(2, sb.length());
+        }
+        //initial 2 bits are both 1's, meaning dec is 11...
+        if(sb.substring(0, 2).equals("11"))
+            return (int) Math.pow(2, sb.length());
 
-    public static void main(String[] args){
-
-
+        //replaces foremost block of contiguous 1's led by a 0 with 1000...000
+        zeroIndex = sb.indexOf("011");
+        sb.setCharAt(zeroIndex, '1');
+        trailingZeroes = new char[sb.length() - zeroIndex - 1];
+        Arrays.fill(trailingZeroes, '0');
+        sb.replace(zeroIndex + 1, sb.length(), String.valueOf(trailingZeroes));
+        return Integer.parseInt(sb.toString(), 2);
     }
 }
