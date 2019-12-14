@@ -218,7 +218,32 @@ public abstract class LinkedListUtils {
         }
         return output;
     }
+    
+    /** Converts linked list to <code>unmodifiableList</code> view 
+     * @param <T> Data type of <code>Node</code> 
+     * @param head Head of given linked list 
+     * @return
+     */
+    public static <T> List<Node<T>> asList(Node<T> head){
+        if(head == null) 
+            return null; 
+        List<Node<T>> output = new ArrayList<>(); 
+        Node<T> p = head, tail = LinkedListUtils.getLast(head);   
+        while(head != tail){
+            output.add(p); 
+            p = p.getNext(); 
+        } 
+        output.add(tail); 
+        return Collections.unmodifiableList(output);  
+    }
 
+    /** Converts linked list to <code>stream</code> while preserving the links between each <code>Node</code>
+     * @param <T> Data type of <code>Node</code>c
+     * @param head Head of given linked list
+     * @return Stream of <code>Node</code> 
+     */
+    public static <T> Stream<Node<T>> stream(Node<T> head){ return LinkedListUtils.asList(head).stream(); } 
+    
     /** Finds out if linked list only contains one <code>Node</code>
      * @param <T> Data type of <code>Node</code>
      * @param head Head of given linked list
