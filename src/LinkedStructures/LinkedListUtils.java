@@ -201,8 +201,8 @@ public abstract class LinkedListUtils {
      * @return Deep copy of linked list led by <code>head</code> within specified range
      */
     public static <T> Node<T> copyOfRange(Node<T> head, Node<T> start, Node<T> stop){
-        if(head == null || start == null || stop == null)
-            return null;
+        if(head == null || start == null || stop == null || start == stop)
+            return null; 
         if(LinkedListUtils.isSingleton(head))
             return new Node<>(head);
         Node<T> prev = new Node<>(head), p = head.getNext(), output = prev, possibleLoop = LinkedListUtils.hashCycleDetection(head);
@@ -243,7 +243,7 @@ public abstract class LinkedListUtils {
         return size;
     }
 
-    /** Finds the number of <code>Node</code> to be traversed to go from one <code>Node</code> to another
+     /** Finds the number of <code>Node</code> to be traversed to go from one <code>Node</code> to another
      * <code>Node</code>in linked list. If <code>node2</code> sequentially comes first, then the distance correlates to
      * the wrap-around traversal from <code>node1</code> to end of list and then from head of list to <code>node2</code>
      * @param <T> Data type of <code>Node</code>
@@ -255,39 +255,30 @@ public abstract class LinkedListUtils {
     public static <T> int distance(Node<T> head, Node<T> node1, Node<T> node2){
         if(node1 == null || node2 == null)
             return -1;
-        Node<T> copy = node1;
+        if(node1 == node2)
+            return 0;
+        Node<T> p = node1.getNext(), tail = LinkedListUtils.getLast(head);
         int dist = 0;
         //first phase: searching until end of linked list
-        while(copy != null){
-            copy = copy.getNext();
+        while(p != null){
             ++dist;
-            if(copy == node2)
+            if(p == node2)
                 return dist;
-            try {
-                if (copy == node1)
-                    throw new Exception("Loop detected!");
-            } catch (Exception e) {
-                return -1;
-            }
+            if(p == tail)
+                break;
+            p = p.getNext();
         }
         //second phase: searching wraps around
-        copy = head;
-        ++dist;
-        while(copy != node1 && copy != null){
-            copy = copy.getNext();
+        p = head;
+        while(p != node1){
             ++dist;
-            if(copy == node2)
+            if(p == node2)
                 return dist;
-            try {
-                if(dist > LinkedListUtils.size(head))
-                    throw new Exception("Loop detected");
-            } catch (Exception e){
-                return -1;
-            }
+            p = p.getNext();
         }
         return -1;
     }
-
+    
     /** Finds the tail or very last <code>Node</code> in given linked list
      * @param <T> Data type of <code>Node</code>
      * @param head Head of given linked list
@@ -296,10 +287,18 @@ public abstract class LinkedListUtils {
     public static <T> Node<T> getLast(Node<T> head){
         if(head == null)
             return null;
-        Node<T> copy = head;
-        while(copy.getNext() != null)
-            copy = copy.getNext();
-        return copy;
+        if(LinkedListUtils.isSingleton(head))
+            return head;
+        Node<T> p = head, possibleLoop = LinkedListUtils.hashCycleDetection(head);
+        int counter = head == possibleLoop ? 1 : 0;
+        while(p.getNext() != null) {
+            if(counter >= 2)
+                break;
+            p = p.getNext();
+            if(p.getNext() == possibleLoop)
+                ++counter;
+        }
+        return p;
     }
 
     /** Advances <code>Node</code> p forward <code>skipSize</code> number of times
