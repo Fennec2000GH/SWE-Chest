@@ -300,7 +300,36 @@ public abstract class LinkedListUtils {
         }
         return p;
     }
+    
+    /** Gets section of linked list from <code>head</code> to <code>Node</code> right before start of loop, if a loop
+     * exists. Otherwise, the whole linked list is considered.
+     * @param <T> Data type of <code>Node</code>
+     * @param head Head of linked list
+     * @return Linear or non-loop portion of linked list
+     */
+    public static <T> Node<T> getLinearSection(Node<T> head){
+        if(head == null) 
+            return null; 
+        Node<T> possibleLoop = LinkedListUtils.hashCycleDetection(head);
+        if(possibleLoop == null)
+            return LinkedListUtils.copy(head);
+        return LinkedListUtils.copyOfRange(head, head, possibleLoop);
+    }
 
+    /** Gets section of linked list from start of loop to end of linked list, if a loop exists.
+     * @param <T> Data type of <code>Node</code>
+     * @param head Head of linked list
+     * @return Loop portion of linked list, otherwise returns null if no loop exists
+     */
+    public static <T> Node<T> getLoopSection(Node<T> head){
+        if(head == null) 
+            return null; 
+        Node<T> possibleLoop = LinkedListUtils.hashCycleDetection(head); 
+        if(possibleLoop == null) 
+            return null; 
+        return LinkedListUtils.copyOfRange(head, possibleLoop, LinkedListUtils.getLast(head)); 
+    } 
+    
     /** Advances <code>Node</code> p forward <code>skipSize</code> number of times
      * @param <T> Data type of <code>Node</code>
      * @param p Given <code>Node</code>
