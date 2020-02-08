@@ -1,6 +1,9 @@
 package LinkedStructures;
+import java.util.ArrayList;
+import java.util.Collections;
 import java.util.HashSet;
 import java.util.List;
+import java.util.stream.Stream;
 import java.util.stream.Collectors;
 
 public abstract class LinkedListUtils {
@@ -202,7 +205,7 @@ public abstract class LinkedListUtils {
      */
     public static <T> Node<T> copyOfRange(Node<T> head, Node<T> start, Node<T> stop){
         if(head == null || start == null || stop == null || start == stop)
-            return null; 
+            return null;
         if(LinkedListUtils.isSingleton(head))
             return new Node<>(head);
         Node<T> prev = new Node<>(head), p = head.getNext(), output = prev, possibleLoop = LinkedListUtils.hashCycleDetection(head);
@@ -218,32 +221,32 @@ public abstract class LinkedListUtils {
         }
         return output;
     }
-    
-    /** Converts linked list to <code>unmodifiableList</code> view 
-     * @param <T> Data type of <code>Node</code> 
-     * @param head Head of given linked list 
+
+    /** Converts linked list to <code>unmodifiableList</code> view
+     * @param <T> Data type of <code>Node</code>
+     * @param head Head of given linked list
      * @return
      */
     public static <T> List<Node<T>> asList(Node<T> head){
-        if(head == null) 
-            return null; 
-        List<Node<T>> output = new ArrayList<>(); 
-        Node<T> p = head, tail = LinkedListUtils.getLast(head);   
+        if(head == null)
+            return null;
+        List<Node<T>> output = new ArrayList<>();
+        Node<T> p = head, tail = LinkedListUtils.getLast(head);
         while(head != tail){
-            output.add(p); 
-            p = p.getNext(); 
-        } 
-        output.add(tail); 
-        return Collections.unmodifiableList(output);  
+            output.add(p);
+            p = p.getNext();
+        }
+        output.add(tail);
+        return Collections.unmodifiableList(output);
     }
 
     /** Converts linked list to <code>stream</code> while preserving the links between each <code>Node</code>
      * @param <T> Data type of <code>Node</code>c
      * @param head Head of given linked list
-     * @return Stream of <code>Node</code> 
+     * @return Stream of <code>Node</code>
      */
-    public static <T> Stream<Node<T>> stream(Node<T> head){ return LinkedListUtils.asList(head).stream(); } 
-    
+    public static <T> Stream<Node<T>> stream(Node<T> head){ return LinkedListUtils.asList(head).stream(); }
+
     /** Finds out if linked list only contains one <code>Node</code>
      * @param <T> Data type of <code>Node</code>
      * @param head Head of given linked list
@@ -268,7 +271,7 @@ public abstract class LinkedListUtils {
         return size;
     }
 
-     /** Finds the number of <code>Node</code> to be traversed to go from one <code>Node</code> to another
+    /** Finds the number of <code>Node</code> to be traversed to go from one <code>Node</code> to another
      * <code>Node</code>in linked list. If <code>node2</code> sequentially comes first, then the distance correlates to
      * the wrap-around traversal from <code>node1</code> to end of list and then from head of list to <code>node2</code>
      * @param <T> Data type of <code>Node</code>
@@ -303,7 +306,7 @@ public abstract class LinkedListUtils {
         }
         return -1;
     }
-    
+
     /** Finds the tail or very last <code>Node</code> in given linked list
      * @param <T> Data type of <code>Node</code>
      * @param head Head of given linked list
@@ -325,7 +328,7 @@ public abstract class LinkedListUtils {
         }
         return p;
     }
-    
+
     /** Gets section of linked list from <code>head</code> to <code>Node</code> right before start of loop, if a loop
      * exists. Otherwise, the whole linked list is considered.
      * @param <T> Data type of <code>Node</code>
@@ -333,8 +336,8 @@ public abstract class LinkedListUtils {
      * @return Linear or non-loop portion of linked list
      */
     public static <T> Node<T> getLinearSection(Node<T> head){
-        if(head == null) 
-            return null; 
+        if(head == null)
+            return null;
         Node<T> possibleLoop = LinkedListUtils.hashCycleDetection(head);
         if(possibleLoop == null)
             return LinkedListUtils.copy(head);
@@ -347,14 +350,14 @@ public abstract class LinkedListUtils {
      * @return Loop portion of linked list, otherwise returns null if no loop exists
      */
     public static <T> Node<T> getLoopSection(Node<T> head){
-        if(head == null) 
-            return null; 
-        Node<T> possibleLoop = LinkedListUtils.hashCycleDetection(head); 
-        if(possibleLoop == null) 
-            return null; 
-        return LinkedListUtils.copyOfRange(head, possibleLoop, LinkedListUtils.getLast(head)); 
-    } 
-    
+        if(head == null)
+            return null;
+        Node<T> possibleLoop = LinkedListUtils.hashCycleDetection(head);
+        if(possibleLoop == null)
+            return null;
+        return LinkedListUtils.copyOfRange(head, possibleLoop, LinkedListUtils.getLast(head));
+    }
+
     /** Advances <code>Node</code> p forward <code>skipSize</code> number of times
      * @param <T> Data type of <code>Node</code>
      * @param p Given <code>Node</code>

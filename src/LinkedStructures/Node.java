@@ -53,6 +53,8 @@ public class Node<T> {
         if(otherNode.getClass() != Node.class)
             return false;
         Node<T> temp = (Node<T>)otherNode;
+        if(this == temp)
+            return true;
         if(this.getData().equals(temp.getData()) && this.getMarker() == temp.getMarker())
             return true;
         return false;

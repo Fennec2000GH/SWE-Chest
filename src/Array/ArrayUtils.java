@@ -1,6 +1,7 @@
 package Array;
 import java.util.Arrays;
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.function.Function;
 import java.util.List;
 import java.util.stream.Collectors;
@@ -73,7 +74,7 @@ public abstract class ArrayUtils {
      * @param j Nonnegative index
      */
     public static void swap(Number[] arr, int i, int j){
-        Preconditions.checkNotNull(arr, "Array must be non-null!");
+        Preconditions.checkNotNull(arr, "Array cannot be null!");
         Preconditions.checkElementIndex(i, arr.length, "Index i out of bounds!");
         Preconditions.checkElementIndex(j, arr.length, "Index j out of bounds!");
         Number temp = arr[i];
@@ -129,10 +130,78 @@ public abstract class ArrayUtils {
                 output[rightIndex] = temp;
             }
             return output;
-    } 
+    }
+
+//    public static List<List<Number>> subarraysLessThan(Number[] arr, double upperBound){
+//        Number[] reducedArr = (Number[])Arrays
+//                .stream(arr)
+//                .mapToDouble(Number::doubleValue)
+//                .sorted()
+//                .filter(n -> n <= upperBound)
+//                .boxed()
+//                .toArray();
+//        ArrayList<Number[]>[][] jaggedCube = new ArrayList[reducedArr.length][reducedArr.length];
+//        for()
+//
+//    }
+//    public static List<List<Number>> subarraysGreaterThan(Number[] arr, int lowerBound){}
+//    public static List<List<Number>> subarraysAtMost(Number[] arr, int upperBound){}
+//    public static List<List<Number>> subarraysAtLeast(Number[] arr, int lowerBound){}
+
+    /** Find index of first occurrence of <code>null</code> in given array
+     * @param <T> Data type of object
+     * @param arr  Array where which to search for <code>null</code>
+     * @return Index of first occurrence of <code>null</code>, or -1 if not found in <code>arr</code>
+     */
+    public static <T> int indexOfNull(T[] arr){
+        try {
+            Preconditions.checkNotNull(arr, "Array cannot be null!");
+        } catch (NullPointerException e) {
+            return -1;
+        }
+        for(int i = 0; i < arr.length; i++)
+            if(arr[i] == null)
+                return i;
+        return -1;
+    }
+
+    /** Find index of first occurrence of an <code>Object</code> in given array
+     * @param <T> Data type of object
+     * @param arr Array where which to search for a target number
+     * @param target <code>Object</code> to search for
+     * @return Index of first occurrence of <code>target</code>, or -1 if not found in <code>arr</code>
+     */
+    public static <T> int indexOf(T[] arr, T target){
+        try {
+            Preconditions.checkNotNull(arr, "Array cannot be null!");
+        } catch (NullPointerException e) {
+            return -1;
+        }
+        for(int i = 0; i < arr.length; i++)
+            if(arr[i].equals(target))
+                return i;
+        return -1;
+    }
+
+    /** Find index of first occurrence of a number in given array
+     * @param arr <code>Number</code> array where which to search for a target number
+     * @param target <code>Number</code> to search for
+     * @return Index of first occurrence of <code>target</code>, or -1 if not found in <code>arr</code>
+     */
+    public static int indexOf(Number[] arr, Number target){
+        try {
+            Preconditions.checkNotNull(arr, "Array cannot be null!");
+        } catch (NullPointerException e) {
+            return -1;
+        }
+        for(int i = 0; i < arr.length; i++)
+            if(arr[i].equals(target))
+                return i;
+        return -1;
+    }
 
     /** Finds index of first occurrence of given sub-array within a longer array
-     * @param arr Longer <code>Number</code> where which to search for a shorter sub-array
+     * @param arr Longer <code>Number</code> array where which to search for a shorter sub-array
      * @param subarray Shorter <code>Number</code> array
      * @param hashFunc Hash function that returns an <code>Integer</code> value for any <code>Number</code> array
      * @return Index of first occurrence of <code>subarray</code> in <code>arr</code>, or -1 if not found

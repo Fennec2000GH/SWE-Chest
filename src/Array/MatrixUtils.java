@@ -2,9 +2,12 @@ package Array;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Objects;
 import java.util.stream.Collectors;
 
-public abstract class Matrix {
+import com.google.common.base.Preconditions;
+
+public abstract class MatrixUtils {
     //MEMBER FUNCTIONS
     /** Checks if all elements in given matrix is <code>null</code>
      * @param matrix 2D <code>Number</code> array
@@ -44,7 +47,7 @@ public abstract class Matrix {
         }
         return !Arrays.stream(matrix).parallel().allMatch(n -> n.length == matrix[0].length);
     }
-    
+
     /** Checks whether given matrix can actually contain elements by verifying positive row and column sizes
      * @param matrix 2D <code>Number</code> array
      * @return <code>true</code> if <code>matrix</code> is a non-jagged rectangular 2D array with a positive number of
@@ -58,7 +61,12 @@ public abstract class Matrix {
         }
         return matrix.length >= 1 && matrix[0].length >= 1 && !MatrixUtils.isJagged(matrix);
     }
-    
+
+    /** Traverses given matrix in a counterclockwise/clockwise direction from top left element
+     * @param matrix
+     * @param visited
+     * @param print
+     */
     public static void spiralTraversal(Number[][] matrix, Number[] visited, boolean print){
         if(matrix == null || matrix.length == 0 || Arrays.stream(matrix).mapToInt(n -> n.length).anyMatch(size -> size != matrix[0].length))
             return;
@@ -97,5 +105,28 @@ public abstract class Matrix {
             }
         }
     }
+
+    /**
+     * @return
+     */
+    public static int[] maximumSumRectangle(Number[][] matrix){
+        try {
+            Preconditions.checkNotNull(matrix);
+            if(MatrixUtils.containsNull(matrix))
+                throw new NullPointerException("Matrix must not contain any null elements!");
+            Preconditions.checkArgument(MatrixUtils.isNondegenerate(matrix));
+        } catch (NullPointerException | IllegalArgumentException e) {
+            e.printStackTrace();
+        }
+        int left, right;
+        double[] sumColumn = new double[matrix.length];
+        for(left = 0; left <= matrix.length - 1; left++){
+            sumColumn = MatrixUtils.getColumn(left);
+
+
+        }
+    }
+
+
 
 }

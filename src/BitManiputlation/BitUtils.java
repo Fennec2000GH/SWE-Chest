@@ -1,4 +1,5 @@
 package BitManiputlation;
+import java.math.BigInteger;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
@@ -6,7 +7,7 @@ import java.util.stream.IntStream;
 import java.util.stream.Collectors;
 
 
-public final class BitUtils {
+public abstract class BitUtils {
     //MEMBER FUNCTIONS
     /** Finds percentage of matching bits from LSB to MSB for 2 binary numbers
      * @param dec1 First base-10 integer to compare
@@ -208,4 +209,5 @@ public final class BitUtils {
         sb.replace(zeroIndex + 1, sb.length(), String.valueOf(trailingZeroes));
         return Integer.parseInt(sb.toString(), 2);
     }
+
 }
