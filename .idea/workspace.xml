@@ -28,7 +28,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="56de6c19-2e05-45cd-903c-08b07618f058" name="Default Changelist" comment="completed search_example.cpp, which is a search function example under the header&lt;algorithm&gt;">
+      <change afterPath="$PROJECT_DIR$/src/C++_STL_Practice/algorithms/includes_example.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/Software_Engineering_Interview.time" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Software_Engineering_Interview.time" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,6 +57,8 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="cf.first.check.clang-format" value="false" />
@@ -79,6 +83,8 @@
       <updated>1582343564664</updated>
       <workItem from="1582343574886" duration="776000" />
       <workItem from="1582344393506" duration="4522000" />
+      <workItem from="1582653692555" duration="152000" />
+      <workItem from="1582661309595" duration="183000" />
     </task>
     <task id="LOCAL-00001" summary="completed search_example.cpp, which is a search function example under the header&lt;algorithm&gt;">
       <created>1582349430985</created>
