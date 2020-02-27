@@ -27,11 +27,11 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="56de6c19-2e05-45cd-903c-08b07618f058" name="Default Changelist" comment="completed examples for edge cases for std::replace, std::replace_if, std::replace_copy, and std::replace_copy_if in &lt;algorithm&gt; library">
-      <change afterPath="$PROJECT_DIR$/src/C++_STL_Practice/C++17 New Features/a.out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/C++_STL_Practice/C++17 New Features/variant_example.cpp" afterDir="false" />
+    <list default="true" id="56de6c19-2e05-45cd-903c-08b07618f058" name="Default Changelist" comment="tested the most useful functions available under std::variant in the &lt;variant&gt; header">
+      <change afterPath="$PROJECT_DIR$/src/C++_STL_Practice/C++17 New Features/optional_example.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/Software_Engineering_Interview.time" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Software_Engineering_Interview.time" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/C++_STL_Practice/C++17 New Features/a.out" beforeDir="false" afterPath="$PROJECT_DIR$/src/C++_STL_Practice/C++17 New Features/a.out" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +89,8 @@
       <workItem from="1582676087577" duration="10161000" />
       <workItem from="1582720525827" duration="2996000" />
       <workItem from="1582728254707" duration="1562000" />
-      <workItem from="1582815652546" duration="7417000" />
+      <workItem from="1582815652546" duration="7503000" />
+      <workItem from="1582832262504" duration="4551000" />
     </task>
     <task id="LOCAL-00001" summary="completed search_example.cpp, which is a search function example under the header&lt;algorithm&gt;">
       <created>1582349430985</created>
@@ -161,7 +162,14 @@
       <option name="project" value="LOCAL" />
       <updated>1582821095268</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="tested the most useful functions available under std::variant in the &lt;variant&gt; header">
+      <created>1582824395593</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1582824395593</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -190,7 +198,8 @@
     <MESSAGE value="completed examples for edge cases for std::binary_search in &lt;algorithm&gt; library" />
     <MESSAGE value="completed examples for edge cases for std::lower_bound and std::upper_bound in &lt;algorithm&gt; library" />
     <MESSAGE value="completed examples for edge cases for std::replace, std::replace_if, std::replace_copy, and std::replace_copy_if in &lt;algorithm&gt; library" />
-    <option name="LAST_COMMIT_MESSAGE" value="completed examples for edge cases for std::replace, std::replace_if, std::replace_copy, and std::replace_copy_if in &lt;algorithm&gt; library" />
+    <MESSAGE value="tested the most useful functions available under std::variant in the &lt;variant&gt; header" />
+    <option name="LAST_COMMIT_MESSAGE" value="tested the most useful functions available under std::variant in the &lt;variant&gt; header" />
   </component>
   <component name="WindowStateProjectService">
     <state x="229" y="3" key="SettingsEditor" timestamp="1582665493625">
@@ -198,10 +207,10 @@
     </state>
     <state x="229" y="3" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1582665493625" />
     <state x="229" y="89" key="SettingsEditor/0.23.1440.823@0.23.1440.823" timestamp="1582344219968" />
-    <state x="220" y="127" key="Vcs.Push.Dialog.v2" timestamp="1582821100904">
+    <state x="220" y="127" key="Vcs.Push.Dialog.v2" timestamp="1582824400860">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="220" y="127" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1582821100904" />
+    <state x="220" y="127" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1582824400860" />
     <state x="495" y="343" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1582821390148">
       <screen x="0" y="23" width="1440" height="823" />
     </state>
