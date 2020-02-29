@@ -32,30 +32,28 @@ int main() {
     cout << "second: { ";
     for_each(second.cbegin(), second.cend(), [](Animal a){ cout << enumString[a] << ", "; });
     cout << "} " << endl;
+    cout << "--------------------------------------------------------------------------------------" << endl << endl;
 
     //merging two (2) vectors into one and storing into v
-    cout << "\nAFTER MERGING... " << endl;
+    cout << "AFTER MERGING... " << endl;
     vector<Animal> v(first.size() + second.size());
     merge(first.begin(), first.end(), second.begin(), second.end(), v.begin());
     cout << "v: { ";
     for_each(v.cbegin(), v.cend(), [](Animal a){ cout << enumString[a] << ", "; });
     cout << "} " << endl;
+    cout << "--------------------------------------------------------------------------------------" << endl << endl;
+
+    cout << "Note that the original two (2) vectors used in the merging remain unchanged. " << endl;
+    cout << "size of first: " << first.size() << endl;
+    cout << "size of second: " << second.size() << endl;
+    cout << "first: { ";
+    for_each(first.cbegin(), first.cend(), [](Animal a){ cout << enumString[a] << ", "; });
+    cout << "} " << endl;
+    cout << "second: { ";
+    for_each(second.cbegin(), second.cend(), [](Animal a){ cout << enumString[a] << ", "; });
+    cout << "} " << endl;
+    cout << "--------------------------------------------------------------------------------------" << endl << endl;
 
     return 0;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
