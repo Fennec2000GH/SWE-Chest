@@ -27,8 +27,8 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="56de6c19-2e05-45cd-903c-08b07618f058" name="Default Changelist" comment="completed test examples for std::find_end in &lt;algorithm&gt; header">
-      <change afterPath="$PROJECT_DIR$/src/C++_STL_Practice/algorithms/fill_example.cpp" afterDir="false" />
+    <list default="true" id="56de6c19-2e05-45cd-903c-08b07618f058" name="Default Changelist" comment="completed test examples for std::fill and std::fill_n in &lt;algorithm&gt; header">
+      <change afterPath="$PROJECT_DIR$/src/C++_STL_Practice/algorithms/count_example.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/Software_Engineering_Interview.time" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Software_Engineering_Interview.time" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -93,7 +93,7 @@
       <workItem from="1582917692079" duration="19000" />
       <workItem from="1582917752733" duration="8613000" />
       <workItem from="1582934753041" duration="1301000" />
-      <workItem from="1583005892014" duration="1110000" />
+      <workItem from="1583005892014" duration="1666000" />
     </task>
     <task id="LOCAL-00001" summary="completed search_example.cpp, which is a search function example under the header&lt;algorithm&gt;">
       <created>1582349430985</created>
@@ -207,7 +207,14 @@
       <option name="project" value="LOCAL" />
       <updated>1582937248149</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="completed test examples for std::fill and std::fill_n in &lt;algorithm&gt; header">
+      <created>1583011308225</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1583011308225</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -242,7 +249,8 @@
     <MESSAGE value="completed test examples for std::minmax in &lt;algorithm&gt; header" />
     <MESSAGE value="completed test examples for std::minmax_element in &lt;algorithm&gt; header" />
     <MESSAGE value="completed test examples for std::find_end in &lt;algorithm&gt; header" />
-    <option name="LAST_COMMIT_MESSAGE" value="completed test examples for std::find_end in &lt;algorithm&gt; header" />
+    <MESSAGE value="completed test examples for std::fill and std::fill_n in &lt;algorithm&gt; header" />
+    <option name="LAST_COMMIT_MESSAGE" value="completed test examples for std::fill and std::fill_n in &lt;algorithm&gt; header" />
   </component>
   <component name="WindowStateProjectService">
     <state x="220" y="12" key="#Plugins" timestamp="1582917778994">
@@ -258,10 +266,10 @@
     </state>
     <state x="229" y="3" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1582665493625" />
     <state x="229" y="89" key="SettingsEditor/0.23.1440.823@0.23.1440.823" timestamp="1582344219968" />
-    <state x="220" y="127" key="Vcs.Push.Dialog.v2" timestamp="1582937252587">
+    <state x="220" y="127" key="Vcs.Push.Dialog.v2" timestamp="1583011312278">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="220" y="127" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1582937252587" />
+    <state x="220" y="127" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1583011312278" />
     <state x="495" y="350" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1582927722202">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
