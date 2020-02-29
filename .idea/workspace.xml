@@ -27,8 +27,8 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="56de6c19-2e05-45cd-903c-08b07618f058" name="Default Changelist" comment="completed test examples for std::minmax in &lt;algorithm&gt; header">
-      <change afterPath="$PROJECT_DIR$/src/C++_STL_Practice/algorithms/minmax_element_example.cpp" afterDir="false" />
+    <list default="true" id="56de6c19-2e05-45cd-903c-08b07618f058" name="Default Changelist" comment="completed test examples for std::minmax_element in &lt;algorithm&gt; header">
+      <change afterPath="$PROJECT_DIR$/src/C++_STL_Practice/algorithms/find_end_example.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/Software_Engineering_Interview.time" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Software_Engineering_Interview.time" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/C++_STL_Practice/algorithms/a.out" beforeDir="false" afterPath="$PROJECT_DIR$/src/C++_STL_Practice/algorithms/a.out" afterDir="false" />
@@ -92,7 +92,8 @@
       <workItem from="1582815652546" duration="7503000" />
       <workItem from="1582832262504" duration="4619000" />
       <workItem from="1582917692079" duration="19000" />
-      <workItem from="1582917752733" duration="7378000" />
+      <workItem from="1582917752733" duration="8613000" />
+      <workItem from="1582934753041" duration="1086000" />
     </task>
     <task id="LOCAL-00001" summary="completed search_example.cpp, which is a search function example under the header&lt;algorithm&gt;">
       <created>1582349430985</created>
@@ -192,7 +193,14 @@
       <option name="project" value="LOCAL" />
       <updated>1582925140584</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="completed test examples for std::minmax_element in &lt;algorithm&gt; header">
+      <created>1582928796050</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1582928796050</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -225,7 +233,8 @@
     <MESSAGE value="tested key functions under std::optional in &lt;optional&gt; header" />
     <MESSAGE value="completed test examples for both std::move and std::move_backward in &lt;algorithm&gt; header" />
     <MESSAGE value="completed test examples for std::minmax in &lt;algorithm&gt; header" />
-    <option name="LAST_COMMIT_MESSAGE" value="completed test examples for std::minmax in &lt;algorithm&gt; header" />
+    <MESSAGE value="completed test examples for std::minmax_element in &lt;algorithm&gt; header" />
+    <option name="LAST_COMMIT_MESSAGE" value="completed test examples for std::minmax_element in &lt;algorithm&gt; header" />
   </component>
   <component name="WindowStateProjectService">
     <state x="220" y="12" key="#Plugins" timestamp="1582917778994">
@@ -241,14 +250,26 @@
     </state>
     <state x="229" y="3" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1582665493625" />
     <state x="229" y="89" key="SettingsEditor/0.23.1440.823@0.23.1440.823" timestamp="1582344219968" />
-    <state x="220" y="127" key="Vcs.Push.Dialog.v2" timestamp="1582925145287">
+    <state x="220" y="127" key="Vcs.Push.Dialog.v2" timestamp="1582928799946">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="220" y="127" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1582925145287" />
+    <state x="220" y="127" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1582928799946" />
     <state x="495" y="350" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1582927722202">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="495" y="350" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1440.900@0.0.1440.900" timestamp="1582927722202" />
     <state x="495" y="343" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1440.823@0.23.1440.823" timestamp="1582821390148" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="NONE" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/src/C++_STL_Practice/algorithms/find_end_example.cpp</url>
+          <line>21</line>
+          <log-expression expression=" //main vector&#10; vector&lt;int&gt; v = {-2, 1, 4, 2, 4, 0, -3, -4, 4, 2};&#10; cout &lt;&lt; &quot;v: { &quot;;&#10; copy(v.cbegin(), v.cend(), ostream_iterator&lt;int&gt;(cout, &quot;, &quot;));&#10; cout &lt;&lt; &quot;} &quot; &lt;&lt; endl;&#10;&#10; //finding first occurrence of {4, 2}&#10; vector&lt;int&gt; test = {4, 2};&#10; cout &lt;&lt; &quot;test: { &quot;;&#10; copy(test.cbegin(), test.cend(), ostream_iterator&lt;int&gt;(cout, &quot;, &quot;));&#10; cout &lt;&lt; &quot;} &quot; &lt;&lt; endl;&#10; vector&lt;int&gt;::const_iterator it1 = find(v.cbegin(), v.cend(), test.cbegin(), test.cend());&#10;&#10;&#10; return 0;" language="ObjectiveC" />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
