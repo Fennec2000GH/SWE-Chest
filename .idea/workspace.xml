@@ -18,6 +18,30 @@
     </expand>
     <select />
   </component>
+  <component name="BuildServerSettings">
+    <option name="LOGIN" value="" />
+    <option name="SERVER_URL" value="http://buildserver" />
+    <option name="REMEMBER_ME" value="true" />
+    <option name="USE_IDEA_PROXY_SETTINGS" value="true" />
+    <option name="INSPECTIONS_BUILD_TYPE_IDS" />
+    <option name="DUPLICATES_BUILD_TYPE_IDS" />
+    <option name="ENABLE_SUITABLE_CONFIGURATION_CACHING" value="true" />
+    <option name="COVERAGE_SETTINGS" />
+    <option name="TEST_STATUS_ENABLED" value="true" />
+    <option name="TEST_STATUS_SHOW_SUCCESSFUL" value="false" />
+    <option name="POSTPONE_SUITABLE_CONFIGURATIONS_SEARCH" value="false" />
+    <option name="ARTIFACTS_BUILD_TYPE_IDS" />
+    <option name="PERFORM_COMMIT_IF_SUCCESSFUL" value="true" />
+    <option name="PERFORM_COMMIT_IF_NO_NEW_FAILED_TESTS" value="false" />
+    <option name="REQUEST_CONFIRMATON" value="false" />
+    <option name="PRE_TESTED_COMMIT" value="true" />
+    <option name="FILTER_BY_STATUS" value="false" />
+    <option name="FILTER_MARKED_AS_FIXED" value="false" />
+    <option name="SHOW_CLOSE_PROMPT" value="true" />
+    <option name="TOOL_WINDOW_SELECTED_CONTENT_INDEX" value="0" />
+    <option name="FILTER_BY_CURRENT_PROJECT" value="true" />
+    <option name="showStatusBarWidget" value="true" />
+  </component>
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated />
   </component>
@@ -27,11 +51,16 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="56de6c19-2e05-45cd-903c-08b07618f058" name="Default Changelist" comment="completed test examples for std::clamp (exclusive to C++17) in &lt;algorithm&gt; header, as well as confirm in std::merge that original vectors used in merging remain unchanged">
-      <change afterPath="$PROJECT_DIR$/src/C++_STL_Practice/containers/a.out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/C++_STL_Practice/containers/array_example.cpp" afterDir="false" />
+    <list default="true" id="56de6c19-2e05-45cd-903c-08b07618f058" name="Default Changelist" comment="completed test examples for std::array with its member functions">
+      <change afterPath="$PROJECT_DIR$/src/C++_STL_Practice/C++17 New Features/any_example.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/build/example.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/build/example.h.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/catch.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Software_Engineering_Interview.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Software_Engineering_Interview.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/Software_Engineering_Interview.time" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Software_Engineering_Interview.time" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/C++_STL_Practice/C++17 New Features/a.out" beforeDir="false" afterPath="$PROJECT_DIR$/src/C++_STL_Practice/C++17 New Features/a.out" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +69,13 @@
   </component>
   <component name="ClangdSettings">
     <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CMakeLists.txt" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -70,7 +106,12 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -94,7 +135,15 @@
       <workItem from="1582917692079" duration="19000" />
       <workItem from="1582917752733" duration="8613000" />
       <workItem from="1582934753041" duration="1301000" />
-      <workItem from="1583005892014" duration="8063000" />
+      <workItem from="1583005892014" duration="8157000" />
+      <workItem from="1583022389444" duration="506000" />
+      <workItem from="1583022942028" duration="135000" />
+      <workItem from="1583023110537" duration="3043000" />
+      <workItem from="1583040440517" duration="1114000" />
+      <workItem from="1583042116363" duration="150000" />
+      <workItem from="1583074948112" duration="609000" />
+      <workItem from="1583083502478" duration="2325000" />
+      <workItem from="1583097204101" duration="2085000" />
     </task>
     <task id="LOCAL-00001" summary="completed search_example.cpp, which is a search function example under the header&lt;algorithm&gt;">
       <created>1582349430985</created>
@@ -236,7 +285,14 @@
       <option name="project" value="LOCAL" />
       <updated>1583015315025</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="completed test examples for std::array with its member functions">
+      <created>1583019815554</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1583019815554</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -275,7 +331,8 @@
     <MESSAGE value="completed test examples for std::count and std::count_if in &lt;algorithm&gt; header" />
     <MESSAGE value="completed test examples for std::merge in &lt;algorithm&gt; header" />
     <MESSAGE value="completed test examples for std::clamp (exclusive to C++17) in &lt;algorithm&gt; header, as well as confirm in std::merge that original vectors used in merging remain unchanged" />
-    <option name="LAST_COMMIT_MESSAGE" value="completed test examples for std::clamp (exclusive to C++17) in &lt;algorithm&gt; header, as well as confirm in std::merge that original vectors used in merging remain unchanged" />
+    <MESSAGE value="completed test examples for std::array with its member functions" />
+    <option name="LAST_COMMIT_MESSAGE" value="completed test examples for std::array with its member functions" />
   </component>
   <component name="WindowStateProjectService">
     <state x="220" y="12" key="#Plugins" timestamp="1582917778994">
@@ -286,15 +343,16 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="220" y="64" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1440.900@0.0.1440.900" timestamp="1582917710561" />
-    <state x="229" y="3" key="SettingsEditor" timestamp="1582665493625">
+    <state x="106" y="0" key="SettingsEditor" timestamp="1583040473892">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="229" y="3" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1582665493625" />
+    <state x="106" y="0" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1583040473892" />
+    <state x="224" y="23" key="SettingsEditor/0.23.1440.821@0.23.1440.821" timestamp="1583022911401" />
     <state x="229" y="89" key="SettingsEditor/0.23.1440.823@0.23.1440.823" timestamp="1582344219968" />
-    <state x="220" y="127" key="Vcs.Push.Dialog.v2" timestamp="1583015318058">
+    <state x="220" y="127" key="Vcs.Push.Dialog.v2" timestamp="1583019818908">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="220" y="127" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1583015318058" />
+    <state x="220" y="127" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1583019818908" />
     <state x="495" y="350" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1582927722202">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
