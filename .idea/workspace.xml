@@ -41,6 +41,14 @@
     <option name="TOOL_WINDOW_SELECTED_CONTENT_INDEX" value="0" />
     <option name="FILTER_BY_CURRENT_PROJECT" value="true" />
     <option name="showStatusBarWidget" value="true" />
+    <treeState key="project">
+      <selectedPath>
+        <pathElement>
+          <option name="myNodeId" value="helperText" />
+          <option name="myNodeType" value="jetbrains.buildServer.tree.descriptors.LinkedTextDescriptor" />
+        </pathElement>
+      </selectedPath>
+    </treeState>
   </component>
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated />
@@ -51,13 +59,12 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="56de6c19-2e05-45cd-903c-08b07618f058" name="Default Changelist" comment="completed CATCH test examples for std::byte from &lt;cstddef&gt; header">
-      <change afterPath="$PROJECT_DIR$/src/C++_STL_Practice/C++17 New Features/filesystem library/a.out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/C++_STL_Practice/C++17 New Features/filesystem library/file_status_example.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/C++_STL_Practice/C++17 New Features/filesystem library/file_type_example.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/C++_STL_Practice/C++17 New Features/filesystem library/path_example.cpp" afterDir="false" />
+    <list default="true" id="56de6c19-2e05-45cd-903c-08b07618f058" name="Default Changelist" comment="completed custom tests for most helpful functions in std::experimental::filesystem::path">
+      <change afterPath="$PROJECT_DIR$/src/C++_STL_Practice/containers/unordered_multiset_example.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/C++_STL_Practice/containers/valarray_example.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/Software_Engineering_Interview.time" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Software_Engineering_Interview.time" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/C++_STL_Practice/containers/a.out" beforeDir="false" afterPath="$PROJECT_DIR$/src/C++_STL_Practice/containers/a.out" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -142,7 +149,8 @@
       <workItem from="1583074948112" duration="609000" />
       <workItem from="1583083502478" duration="2325000" />
       <workItem from="1583097204101" duration="7006000" />
-      <workItem from="1583156555771" duration="7284000" />
+      <workItem from="1583156555771" duration="7338000" />
+      <workItem from="1583244566962" duration="10165000" />
     </task>
     <task id="LOCAL-00001" summary="completed search_example.cpp, which is a search function example under the header&lt;algorithm&gt;">
       <created>1582349430985</created>
@@ -305,7 +313,14 @@
       <option name="project" value="LOCAL" />
       <updated>1583105898181</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="completed custom tests for most helpful functions in std::experimental::filesystem::path">
+      <created>1583166706523</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1583166706523</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -347,7 +362,8 @@
     <MESSAGE value="completed test examples for std::array with its member functions" />
     <MESSAGE value="completed CATCH test examples for std::any with its member functions from &lt;any&gt; header" />
     <MESSAGE value="completed CATCH test examples for std::byte from &lt;cstddef&gt; header" />
-    <option name="LAST_COMMIT_MESSAGE" value="completed CATCH test examples for std::byte from &lt;cstddef&gt; header" />
+    <MESSAGE value="completed custom tests for most helpful functions in std::experimental::filesystem::path" />
+    <option name="LAST_COMMIT_MESSAGE" value="completed custom tests for most helpful functions in std::experimental::filesystem::path" />
   </component>
   <component name="WindowStateProjectService">
     <state x="220" y="12" key="#Plugins" timestamp="1582917778994">
@@ -364,15 +380,15 @@
     <state x="106" y="0" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1583040473892" />
     <state x="224" y="23" key="SettingsEditor/0.23.1440.821@0.23.1440.821" timestamp="1583022911401" />
     <state x="229" y="89" key="SettingsEditor/0.23.1440.823@0.23.1440.823" timestamp="1582344219968" />
-    <state x="220" y="127" key="Vcs.Push.Dialog.v2" timestamp="1583105901753">
+    <state x="220" y="127" key="Vcs.Push.Dialog.v2" timestamp="1583166710596">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="220" y="127" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1583105901753" />
-    <state x="495" y="350" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1582927722202">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state x="220" y="127" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1583166710596" />
+    <state x="495" y="343" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1583250773823">
+      <screen x="0" y="23" width="1440" height="823" />
     </state>
     <state x="495" y="350" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1440.900@0.0.1440.900" timestamp="1582927722202" />
-    <state x="495" y="343" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1440.823@0.23.1440.823" timestamp="1582821390148" />
+    <state x="495" y="343" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1440.823@0.23.1440.823" timestamp="1583250773823" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
