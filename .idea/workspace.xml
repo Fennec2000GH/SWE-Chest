@@ -59,12 +59,11 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="56de6c19-2e05-45cd-903c-08b07618f058" name="Default Changelist" comment="completed custom tests for most helpful functions in std::valarray and started testing functions in std::unordered_multiset">
-      <change afterPath="$PROJECT_DIR$/src/C++_STL_Practice/containers/unordered_map_example.cpp" afterDir="false" />
+    <list default="true" id="56de6c19-2e05-45cd-903c-08b07618f058" name="Default Changelist" comment="completed custom tests for functions in std::unordered_multiset and set up function definitions to be tested for std::unordered_map">
       <change beforePath="$PROJECT_DIR$/.idea/Software_Engineering_Interview.time" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Software_Engineering_Interview.time" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/C++_STL_Practice/containers/a.out" beforeDir="false" afterPath="$PROJECT_DIR$/src/C++_STL_Practice/containers/a.out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/C++_STL_Practice/containers/unordered_multiset_example.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/C++_STL_Practice/containers/unordered_multiset_example.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/C++_STL_Practice/containers/unordered_map_example.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/C++_STL_Practice/containers/unordered_map_example.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -152,7 +151,8 @@
       <workItem from="1583156555771" duration="7338000" />
       <workItem from="1583244566962" duration="10399000" />
       <workItem from="1583328042204" duration="4399000" />
-      <workItem from="1583335759374" duration="4668000" />
+      <workItem from="1583335759374" duration="4707000" />
+      <workItem from="1583363130097" duration="4816000" />
     </task>
     <task id="LOCAL-00001" summary="completed search_example.cpp, which is a search function example under the header&lt;algorithm&gt;">
       <created>1582349430985</created>
@@ -329,7 +329,14 @@
       <option name="project" value="LOCAL" />
       <updated>1583258553916</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="completed custom tests for functions in std::unordered_multiset and set up function definitions to be tested for std::unordered_map">
+      <created>1583342513798</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1583342513798</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -348,7 +355,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="completed search_example.cpp, which is a search function example under the header&lt;algorithm&gt;" />
     <MESSAGE value="new file for practicing with std::includes from &lt;algorithm&gt;, and for initial commit connection test" />
     <MESSAGE value="completed practice with all common edge cases for std::includes from &lt;algorithm&gt; library" />
     <MESSAGE value="completed examples for edge cases for std::rotate in &lt;algorithm&gt; library" />
@@ -373,7 +379,8 @@
     <MESSAGE value="completed CATCH test examples for std::byte from &lt;cstddef&gt; header" />
     <MESSAGE value="completed custom tests for most helpful functions in std::experimental::filesystem::path" />
     <MESSAGE value="completed custom tests for most helpful functions in std::valarray and started testing functions in std::unordered_multiset" />
-    <option name="LAST_COMMIT_MESSAGE" value="completed custom tests for most helpful functions in std::valarray and started testing functions in std::unordered_multiset" />
+    <MESSAGE value="completed custom tests for functions in std::unordered_multiset and set up function definitions to be tested for std::unordered_map" />
+    <option name="LAST_COMMIT_MESSAGE" value="completed custom tests for functions in std::unordered_multiset and set up function definitions to be tested for std::unordered_map" />
   </component>
   <component name="WindowStateProjectService">
     <state x="220" y="12" key="#Plugins" timestamp="1582917778994">
@@ -390,10 +397,10 @@
     <state x="106" y="0" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1583040473892" />
     <state x="224" y="23" key="SettingsEditor/0.23.1440.821@0.23.1440.821" timestamp="1583022911401" />
     <state x="229" y="89" key="SettingsEditor/0.23.1440.823@0.23.1440.823" timestamp="1582344219968" />
-    <state x="220" y="127" key="Vcs.Push.Dialog.v2" timestamp="1583258556802">
+    <state x="220" y="127" key="Vcs.Push.Dialog.v2" timestamp="1583342516364">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="220" y="127" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1583258556802" />
+    <state x="220" y="127" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1583342516364" />
     <state x="495" y="343" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1583250773823">
       <screen x="0" y="23" width="1440" height="823" />
     </state>
