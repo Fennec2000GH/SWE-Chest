@@ -6,6 +6,8 @@ using namespace std;
 //Problem:
 //Reverse a singly linked list.
 
+//Level: Easy
+
 //Results
 /*
 Runtime: 8 ms, faster than 94.78% of C++ online submissions for Reverse Linked List.

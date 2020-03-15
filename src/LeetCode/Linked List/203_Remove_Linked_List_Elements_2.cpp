@@ -7,7 +7,9 @@ using namespace std;
 //Problem:
 //Remove all elements from a linked list of integers that have value val.
 
-//Results
+//Level: Easy
+
+// Results
 /*
 Runtime: 32 ms, faster than 79.94% of C++ online submissions for Remove Linked List Elements.
 Memory Usage: 12.9 MB, less than 5.66% of C++ online submissions for Remove Linked List Elements.
