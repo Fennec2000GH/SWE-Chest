@@ -12,6 +12,11 @@ using namespace std;
 Runtime: 32 ms, faster than 79.94% of C++ online submissions for Remove Linked List Elements.
 Memory Usage: 12.9 MB, less than 5.66% of C++ online submissions for Remove Linked List Elements.
 */
+/*
+ This version captures all values in order that do not match val using a vector. Then, the first N ListNodes are filled
+ with the values in the vector, where N is the number of ListNodes without a matching val. No improvement from first
+ version most likely due to too many edge cases.
+ */
 
 //Definition for singly-linked list.
 struct ListNode {
