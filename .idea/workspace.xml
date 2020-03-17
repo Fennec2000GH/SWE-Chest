@@ -60,22 +60,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="56de6c19-2e05-45cd-903c-08b07618f058" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/LeetCode/Linked List/1290_Convert_Binary_Number_in_a_Linked_List_to_Integer.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LeetCode/Linked List/142_Linked_List_Cycle_II_1.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LeetCode/Linked List/19_Remove_Nth_Node_From_End_of_List.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LeetCode/Linked List/234_Palindrome_Linked_List_1.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LeetCode/Linked List/237_Delete_Node_in_a_Linked_List_1.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LeetCode/Linked List/876_Middle_of_the_Linked_List.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LeetCode/Linked List/a.out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LeetCode/String/205_Isomorphic_Strings.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LeetCode/String/415_Add_Strings.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LeetCode/String/a.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Screenshot 2020-03-17 at 01.57.02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LeetCode/Arrays/88_Merge_Sorted_Array.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LeetCode/Arrays/a.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LeetCode/Trees/101_Symmetric_Tree_1.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LeetCode/Trees/101_Symmetric_Tree_2.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LeetCode/Trees/a.out" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/Software_Engineering_Interview.time" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Software_Engineering_Interview.time" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LeetCode/Linked List/203_Remove_Linked_List_Elements_1.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/Linked List/203_Remove_Linked_List_Elements_1.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LeetCode/Linked List/203_Remove_Linked_List_Elements_2.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/Linked List/203_Remove_Linked_List_Elements_2.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LeetCode/Linked List/206_Reversed_Linked_List_1.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/Linked List/206_Reversed_Linked_List_1.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LeetCode/Linked List/206_Reversed_Linked_List_2.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/Linked List/206_Reversed_Linked_List_2.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -181,7 +173,10 @@
       <workItem from="1583773120813" duration="36000" />
       <workItem from="1584198875565" duration="7261000" />
       <workItem from="1584235342734" duration="8033000" />
-      <workItem from="1584290570827" duration="11981000" />
+      <workItem from="1584290570827" duration="12016000" />
+      <workItem from="1584397204778" duration="2345000" />
+      <workItem from="1584416486476" duration="1010000" />
+      <workItem from="1584455262488" duration="4696000" />
     </task>
     <task id="LOCAL-00001" summary="completed search_example.cpp, which is a search function example under the header&lt;algorithm&gt;">
       <created>1582349430985</created>
@@ -400,7 +395,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584245092320</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="completed more LeetCode problems under Linked List and String categories">
+      <created>1584312558137</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1584312558137</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -420,7 +422,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="completed examples for edge cases for std::mismatch in &lt;algorithm&gt; library" />
     <MESSAGE value="completed examples for edge cases for std::adjacent_find in &lt;algorithm&gt; library" />
     <MESSAGE value="completed examples for edge cases for std::binary_search in &lt;algorithm&gt; library" />
     <MESSAGE value="completed examples for edge cases for std::lower_bound and std::upper_bound in &lt;algorithm&gt; library" />
@@ -445,7 +446,8 @@
     <MESSAGE value="completed custom tests for functions in std::deque" />
     <MESSAGE value="converted std::filesystem::path function tests to CATCH tests and added tests for modifier functions and query functions" />
     <MESSAGE value="problems 203 and 206 from LeetCode (linked list problems) solutions added, including variations for each" />
-    <option name="LAST_COMMIT_MESSAGE" value="problems 203 and 206 from LeetCode (linked list problems) solutions added, including variations for each" />
+    <MESSAGE value="completed more LeetCode problems under Linked List and String categories" />
+    <option name="LAST_COMMIT_MESSAGE" value="completed more LeetCode problems under Linked List and String categories" />
   </component>
   <component name="WindowStateProjectService">
     <state x="220" y="12" key="#Plugins" timestamp="1582917778994">
@@ -456,29 +458,29 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="220" y="64" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1440.900@0.0.1440.900" timestamp="1583335723532" />
-    <state x="221" y="23" width="1019" height="823" key="CommitChangelistDialog2" timestamp="1584245092175">
+    <state x="221" y="23" width="1019" height="823" key="CommitChangelistDialog2" timestamp="1584312557858">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="221" y="23" width="1019" height="823" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1584245092175" />
+    <state x="221" y="23" width="1019" height="823" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1584312557858" />
     <state x="106" y="3" key="SettingsEditor" timestamp="1583467377708">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="106" y="3" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1583467377708" />
     <state x="224" y="23" key="SettingsEditor/0.23.1440.821@0.23.1440.821" timestamp="1583022911401" />
     <state x="229" y="89" key="SettingsEditor/0.23.1440.823@0.23.1440.823" timestamp="1582344219968" />
-    <state x="220" y="127" key="Vcs.Push.Dialog.v2" timestamp="1584245096455">
+    <state x="220" y="127" key="Vcs.Push.Dialog.v2" timestamp="1584312561328">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="220" y="127" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1584245096455" />
+    <state x="220" y="127" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1584312561327" />
     <state x="495" y="343" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1583250773823">
       <screen x="0" y="23" width="1440" height="823" />
     </state>
     <state x="495" y="350" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1440.900@0.0.1440.900" timestamp="1582927722202" />
     <state x="495" y="343" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1440.823@0.23.1440.823" timestamp="1583250773823" />
-    <state x="301" y="0" width="838" height="1032" key="search.everywhere.popup" timestamp="1583329115839">
+    <state x="301" y="0" width="838" height="1032" key="search.everywhere.popup" timestamp="1584400851018">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="301" y="0" width="838" height="1032" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1583329115839" />
+    <state x="301" y="0" width="838" height="1032" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1584400851018" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
