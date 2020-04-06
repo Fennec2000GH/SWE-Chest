@@ -60,14 +60,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="56de6c19-2e05-45cd-903c-08b07618f058" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/LeetCode/Trees/538_Convert_BST_to_Greater_Tree_1.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LeetCode/Trees/563_Binary_Tree_Tilt.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LeetCode/Trees/572_Subtree_of_Another_Tree.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LeetCode/Trees/226_Invert_Binary_Tree.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LeetCode/Trees/617_merge_two_binary_trees.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/Software_Engineering_Interview.time" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Software_Engineering_Interview.time" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/rSettings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/rSettings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LeetCode/Trees/101_Symmetric_Tree_1.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/Trees/101_Symmetric_Tree_1.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LeetCode/Trees/101_Symmetric_Tree_2.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/Trees/101_Symmetric_Tree_2.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LeetCode/Trees/a.out" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/Trees/a.out" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,6 +74,9 @@
   </component>
   <component name="ClangdSettings">
     <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -93,6 +94,9 @@
   <component name="MacroExpansionManager">
     <option name="directoryName" value="OCJkLjCs" />
   </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
   <component name="ProjectId" id="1Y98gqg3UWEPb4JlZinUc2WASZJ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -104,13 +108,19 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="true" />
+    <property name="Repository.Attach.JavaDocs" value="true" />
+    <property name="Repository.Attach.Sources" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="TF_FMT" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
     <property name="cf.first.check.clang-format" value="false" />
     <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="go.import.settings.migrated" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -118,6 +128,10 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Global Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
@@ -125,6 +139,27 @@
       <recent name="$PROJECT_DIR$/src/C++_STL_Practice/C++17 New Features/filesystem library" />
       <recent name="$PROJECT_DIR$/src" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="ClojureREPL" factoryName="Local" activateToolWindowBeforeRun="false">
+      <setting name="replType" value="NREPL" />
+      <setting name="execution" value="LEININGEN" />
+      <setting name="jvmArgs" value="" />
+      <setting name="parameters" value="" />
+      <setting name="workingDir" value="" />
+      <setting name="profiles" value="" />
+      <setting name="aliases" value="" />
+      <setting name="fixLineNumbers" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="ClojureREPL" factoryName="Remote" activateToolWindowBeforeRun="false">
+      <setting name="host" value="" />
+      <setting name="port" value="0" />
+      <setting name="replType" value="SOCKET" />
+      <setting name="configType" value="SPECIFY" />
+      <setting name="fixLineNumbers" value="false" />
+      <method v="2" />
+    </configuration>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -177,7 +212,13 @@
       <workItem from="1584397204778" duration="2345000" />
       <workItem from="1584416486476" duration="1010000" />
       <workItem from="1584455262488" duration="4861000" />
-      <workItem from="1584477285587" duration="6803000" />
+      <workItem from="1584477285587" duration="6940000" />
+      <workItem from="1584582785026" duration="48000" />
+      <workItem from="1584582860569" duration="23000" />
+      <workItem from="1585202241694" duration="177000" />
+      <workItem from="1585278466000" duration="73000" />
+      <workItem from="1586185230787" duration="3182000" />
+      <workItem from="1586196625016" duration="2388000" />
     </task>
     <task id="LOCAL-00001" summary="completed search_example.cpp, which is a search function example under the header&lt;algorithm&gt;">
       <created>1582349430985</created>
@@ -417,7 +458,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584472070436</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="completed first tries on several LeetCode problems on binary trees (problems 538, 563, 572)">
+      <created>1584485264816</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1584485264816</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -437,7 +485,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="completed examples for edge cases for std::replace, std::replace_if, std::replace_copy, and std::replace_copy_if in &lt;algorithm&gt; library" />
     <MESSAGE value="tested the most useful functions available under std::variant in the &lt;variant&gt; header" />
     <MESSAGE value="tested key functions under std::optional in &lt;optional&gt; header" />
     <MESSAGE value="completed test examples for both std::move and std::move_backward in &lt;algorithm&gt; header" />
@@ -462,7 +509,8 @@
     <MESSAGE value="completed LeetCode problems" />
     <MESSAGE value="completed LeetCode problems 88 (Merge Sorted Array) and 101 (Symmetric Tree)" />
     <MESSAGE value="removed needless files that were added by mistake" />
-    <option name="LAST_COMMIT_MESSAGE" value="removed needless files that were added by mistake" />
+    <MESSAGE value="completed first tries on several LeetCode problems on binary trees (problems 538, 563, 572)" />
+    <option name="LAST_COMMIT_MESSAGE" value="completed first tries on several LeetCode problems on binary trees (problems 538, 563, 572)" />
   </component>
   <component name="WindowStateProjectService">
     <state x="220" y="12" key="#Plugins" timestamp="1582917778994">
@@ -473,40 +521,44 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="220" y="64" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1440.900@0.0.1440.900" timestamp="1583335723532" />
-    <state x="421" y="54" width="1019" height="823" key="CommitChangelistDialog2" timestamp="1584472070056">
+    <state x="419" y="277" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1586187937689">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="421" y="54" width="1019" height="823" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1584472070056" />
-    <state x="106" y="3" key="SettingsEditor" timestamp="1583467377708">
+    <state x="419" y="277" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1440.900@0.0.1440.900" timestamp="1586187937689" />
+    <state x="421" y="54" width="1019" height="823" key="CommitChangelistDialog2" timestamp="1584485264597">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="106" y="3" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1583467377708" />
+    <state x="421" y="54" width="1019" height="823" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1584485264597" />
+    <state x="169" y="169" key="FileChooserDialogImpl" timestamp="1585202293908">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="169" y="169" key="FileChooserDialogImpl/0.0.1440.900@0.0.1440.900" timestamp="1585202293908" />
+    <state x="106" y="3" key="SettingsEditor" timestamp="1586196587016">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="106" y="3" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1586196587016" />
     <state x="224" y="23" key="SettingsEditor/0.23.1440.821@0.23.1440.821" timestamp="1583022911401" />
     <state x="229" y="89" key="SettingsEditor/0.23.1440.823@0.23.1440.823" timestamp="1582344219968" />
-    <state x="220" y="127" key="Vcs.Push.Dialog.v2" timestamp="1584472073067">
+    <state x="220" y="127" key="Vcs.Push.Dialog.v2" timestamp="1584485269234">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="220" y="127" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1584472073067" />
-    <state x="495" y="343" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1583250773823">
-      <screen x="0" y="23" width="1440" height="823" />
+    <state x="220" y="127" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1584485269233" />
+    <state x="358" y="282" key="com.intellij.ide.util.TipDialog" timestamp="1585278655095">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="495" y="350" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1440.900@0.0.1440.900" timestamp="1582927722202" />
+    <state x="358" y="282" key="com.intellij.ide.util.TipDialog/0.0.1440.900@0.0.1440.900" timestamp="1585278655095" />
+    <state x="217" y="322" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1585202417627">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="217" y="322" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1440.900@0.0.1440.900" timestamp="1585202417627" />
+    <state x="495" y="350" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1586187932061">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="495" y="350" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1440.900@0.0.1440.900" timestamp="1586187932061" />
     <state x="495" y="343" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1440.823@0.23.1440.823" timestamp="1583250773823" />
     <state x="301" y="0" width="838" height="1032" key="search.everywhere.popup" timestamp="1584484669648">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="301" y="0" width="838" height="1032" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1584484669648" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="NONE" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/src/C++_STL_Practice/algorithms/find_end_example.cpp</url>
-          <line>21</line>
-          <log-expression expression=" //main vector&#10; vector&lt;int&gt; v = {-2, 1, 4, 2, 4, 0, -3, -4, 4, 2};&#10; cout &lt;&lt; &quot;v: { &quot;;&#10; copy(v.cbegin(), v.cend(), ostream_iterator&lt;int&gt;(cout, &quot;, &quot;));&#10; cout &lt;&lt; &quot;} &quot; &lt;&lt; endl;&#10;&#10; //finding first occurrence of {4, 2}&#10; vector&lt;int&gt; test = {4, 2};&#10; cout &lt;&lt; &quot;test: { &quot;;&#10; copy(test.cbegin(), test.cend(), ostream_iterator&lt;int&gt;(cout, &quot;, &quot;));&#10; cout &lt;&lt; &quot;} &quot; &lt;&lt; endl;&#10; vector&lt;int&gt;::const_iterator it1 = find(v.cbegin(), v.cend(), test.cbegin(), test.cend());&#10;&#10;&#10; return 0;" language="ObjectiveC" />
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
