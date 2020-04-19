@@ -59,13 +59,19 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="56de6c19-2e05-45cd-903c-08b07618f058" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/LeetCode/Linked List/143_Reorder_List.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LeetCode/Linked List/817_Linked_List_Components.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LeetCode/Linked List/92_Reverse_Linked_List_II.cpp" afterDir="false" />
+    <list default="true" id="56de6c19-2e05-45cd-903c-08b07618f058" name="Default Changelist" comment="completed three (3) medium-level linked list problems ()">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Boost_Practice/Serialization.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Boost_Practice/a.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Boost_Practice/boost_thread.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LeetCode/Linked List/114_Flatten_Binary_Tree_to_Linked_List.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LeetCode/Linked List/1367_Linked_List_in_Binary_Tree.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LeetCode/Linked List/1367_Linked_List_in_Binary_Tree_custom.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LeetCode/Linked List/725_Split_Linked_List_in_Parts.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/Software_Engineering_Interview.time" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Software_Engineering_Interview.time" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LeetCode/Linked List/a.out" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/Linked List/a.out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/C++_STL_Practice/algorithms/a.out" beforeDir="false" afterPath="$PROJECT_DIR$/src/C++_STL_Practice/algorithms/a.out" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,6 +114,7 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="mysql&#10;mariadb" />
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.Annotations" value="true" />
     <property name="Repository.Attach.JavaDocs" value="true" />
@@ -121,24 +128,34 @@
     <property name="cf.first.check.clang-format" value="false" />
     <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="go.import.settings.migrated" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/LeetCode/Linked List" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Global Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/LeetCode/Linked List" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/C++_STL_Practice/C++17 New Features/filesystem library" />
       <recent name="$PROJECT_DIR$/src" />
     </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="ls" />
+      <command value="fish" />
+    </option>
   </component>
   <component name="RunManager">
     <configuration default="true" type="ClojureREPL" factoryName="Local" activateToolWindowBeforeRun="false">
@@ -223,7 +240,14 @@
       <workItem from="1586314231844" duration="51000" />
       <workItem from="1586314346714" duration="3498000" />
       <workItem from="1586383331547" duration="132000" />
-      <workItem from="1586570180580" duration="5927000" />
+      <workItem from="1586570180580" duration="5982000" />
+      <workItem from="1586635675471" duration="43000" />
+      <workItem from="1586879041538" duration="679000" />
+      <workItem from="1586888475778" duration="1858000" />
+      <workItem from="1586898016748" duration="65000" />
+      <workItem from="1586922424505" duration="1668000" />
+      <workItem from="1586959362611" duration="166000" />
+      <workItem from="1587311910110" duration="8917000" />
     </task>
     <task id="LOCAL-00001" summary="completed search_example.cpp, which is a search function example under the header&lt;algorithm&gt;">
       <created>1582349430985</created>
@@ -484,7 +508,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586318159999</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="completed three (3) medium-level linked list problems (92, 143, 817)">
+      <created>1586577004272</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1586577004273</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -504,7 +535,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="completed test examples for both std::move and std::move_backward in &lt;algorithm&gt; header" />
     <MESSAGE value="completed test examples for std::minmax in &lt;algorithm&gt; header" />
     <MESSAGE value="completed test examples for std::minmax_element in &lt;algorithm&gt; header" />
     <MESSAGE value="completed test examples for std::find_end in &lt;algorithm&gt; header" />
@@ -529,13 +559,22 @@
     <MESSAGE value="completed first tries on several LeetCode problems on binary trees (problems 538, 563, 572)" />
     <MESSAGE value="completed two (2) binary tree problems (226 and 617)" />
     <MESSAGE value="completed two (2) medium-level linked list problems (328 and 1019)" />
-    <option name="LAST_COMMIT_MESSAGE" value="completed two (2) medium-level linked list problems (328 and 1019)" />
+    <MESSAGE value="completed three (3) medium-level linked list problems (92, 143, 817)" />
+    <option name="LAST_COMMIT_MESSAGE" value="completed three (3) medium-level linked list problems (92, 143, 817)" />
   </component>
   <component name="WindowStateProjectService">
     <state x="220" y="12" key="#Plugins" timestamp="1582917778994">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="220" y="12" key="#Plugins/0.0.1440.900@0.0.1440.900" timestamp="1582917778994" />
+    <state x="180" y="44" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1586888705942">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="180" y="44" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1586888705942" />
+    <state x="290" y="0" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog" timestamp="1586889690280">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="290" y="0" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog/0.0.1440.900@0.0.1440.900" timestamp="1586889690280" />
     <state x="220" y="64" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1583335723532">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -544,24 +583,45 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="419" y="277" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1440.900@0.0.1440.900" timestamp="1586187937689" />
-    <state x="421" y="54" width="1019" height="823" key="CommitChangelistDialog2" timestamp="1586318159799">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state x="421" y="23" width="1019" height="822" key="CommitChangelistDialog2" timestamp="1587322919557">
+      <screen x="0" y="23" width="1440" height="822" />
     </state>
-    <state x="421" y="54" width="1019" height="823" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1586318159799" />
+    <state x="421" y="54" width="1019" height="823" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1586577004017" />
+    <state x="421" y="23" width="1019" height="822" key="CommitChangelistDialog2/0.23.1440.822@0.23.1440.822" timestamp="1587322919557" />
     <state x="169" y="169" key="FileChooserDialogImpl" timestamp="1585202293908">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="169" y="169" key="FileChooserDialogImpl/0.0.1440.900@0.0.1440.900" timestamp="1585202293908" />
-    <state x="106" y="3" key="SettingsEditor" timestamp="1586196587016">
+    <state width="1378" height="229" key="GridCell.Tab.0.bottom" timestamp="1586889671318">
       <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1378" height="229" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1586889671318" />
+    <state width="1378" height="229" key="GridCell.Tab.0.center" timestamp="1586889671317">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1378" height="229" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1586889671317" />
+    <state width="1378" height="229" key="GridCell.Tab.0.left" timestamp="1586889671316">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1378" height="229" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1586889671316" />
+    <state width="1378" height="229" key="GridCell.Tab.0.right" timestamp="1586889671318">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1378" height="229" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1586889671318" />
+    <state width="251" height="702" key="HiddenNamespacesPopup" timestamp="1586888734302">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="251" height="702" key="HiddenNamespacesPopup/0.0.1440.900@0.0.1440.900" timestamp="1586888734302" />
+    <state x="224" y="23" key="SettingsEditor" timestamp="1586890273860">
+      <screen x="0" y="23" width="1440" height="821" />
     </state>
     <state x="106" y="3" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1586196587016" />
-    <state x="224" y="23" key="SettingsEditor/0.23.1440.821@0.23.1440.821" timestamp="1583022911401" />
+    <state x="224" y="23" key="SettingsEditor/0.23.1440.821@0.23.1440.821" timestamp="1586890273860" />
     <state x="229" y="89" key="SettingsEditor/0.23.1440.823@0.23.1440.823" timestamp="1582344219968" />
-    <state x="220" y="127" key="Vcs.Push.Dialog.v2" timestamp="1586318166585">
+    <state x="220" y="127" key="Vcs.Push.Dialog.v2" timestamp="1586577008554">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="220" y="127" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1586318166585" />
+    <state x="220" y="127" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1586577008554" />
     <state x="358" y="282" key="com.intellij.ide.util.TipDialog" timestamp="1585278655095">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -570,14 +630,18 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="217" y="322" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1440.900@0.0.1440.900" timestamp="1585202417627" />
-    <state x="495" y="350" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1586187932061">
+    <state x="495" y="350" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1586922924066">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="495" y="350" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1440.900@0.0.1440.900" timestamp="1586187932061" />
+    <state x="495" y="350" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1440.900@0.0.1440.900" timestamp="1586922924066" />
     <state x="495" y="343" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1440.823@0.23.1440.823" timestamp="1583250773823" />
-    <state x="301" y="0" width="840" height="1032" key="search.everywhere.popup" timestamp="1586318104368">
+    <state x="300" y="206" width="840" height="1034" key="run.anything.popup" timestamp="1586889667962">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="301" y="0" width="840" height="1032" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1586318104368" />
+    <state x="300" y="206" width="840" height="1034" key="run.anything.popup/0.0.1440.900@0.0.1440.900" timestamp="1586889667962" />
+    <state x="301" y="0" width="840" height="1032" key="search.everywhere.popup" timestamp="1586889678594">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="301" y="0" width="840" height="1032" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1586889678594" />
   </component>
 </project>
