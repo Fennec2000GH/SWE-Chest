@@ -59,19 +59,13 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="56de6c19-2e05-45cd-903c-08b07618f058" name="Default Changelist" comment="completed three (3) medium-level linked list problems ()">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Boost_Practice/Serialization.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Boost_Practice/a.out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Boost_Practice/boost_thread.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LeetCode/Linked List/114_Flatten_Binary_Tree_to_Linked_List.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LeetCode/Linked List/1367_Linked_List_in_Binary_Tree.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LeetCode/Linked List/1367_Linked_List_in_Binary_Tree_custom.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LeetCode/Linked List/725_Split_Linked_List_in_Parts.cpp" afterDir="false" />
+    <list default="true" id="56de6c19-2e05-45cd-903c-08b07618f058" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Java_Functional_Programming_Practice/About.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Java_Functional_Programming_Practice/chapter_1_Hello_Lambda_Expressions.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/Software_Engineering_Interview.time" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Software_Engineering_Interview.time" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/C++_STL_Practice/algorithms/a.out" beforeDir="false" afterPath="$PROJECT_DIR$/src/C++_STL_Practice/algorithms/a.out" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,6 +77,28 @@
   </component>
   <component name="CodeStyleSettingsInfer">
     <option name="done" value="true" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="Software_Engineering_Interview" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -96,6 +112,13 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/src/C++_STL_Practice/containers/deque_example.cpp" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
   </component>
   <component name="MacroExpansionManager">
     <option name="directoryName" value="OCJkLjCs" />
@@ -128,7 +151,7 @@
     <property name="cf.first.check.clang-format" value="false" />
     <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="go.import.settings.migrated" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/LeetCode/Linked List" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -136,11 +159,11 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Global Libraries" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.build" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -247,7 +270,14 @@
       <workItem from="1586898016748" duration="65000" />
       <workItem from="1586922424505" duration="1668000" />
       <workItem from="1586959362611" duration="166000" />
-      <workItem from="1587311910110" duration="8917000" />
+      <workItem from="1587311910110" duration="9017000" />
+      <workItem from="1588202430169" duration="145000" />
+      <workItem from="1588429325083" duration="932000" />
+      <workItem from="1588430739445" duration="113000" />
+      <workItem from="1588431189840" duration="872000" />
+      <workItem from="1588432357683" duration="129000" />
+      <workItem from="1588432538550" duration="2071000" />
+      <workItem from="1588462432574" duration="300000" />
     </task>
     <task id="LOCAL-00001" summary="completed search_example.cpp, which is a search function example under the header&lt;algorithm&gt;">
       <created>1582349430985</created>
@@ -515,27 +545,34 @@
       <option name="project" value="LOCAL" />
       <updated>1586577004273</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="completed three (3) medium-level linked list problems (114, 725, 1367 twice)">
+      <created>1587322945316</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1587322945316</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="2" />
+    <option name="version" value="1" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="completed test examples for std::minmax in &lt;algorithm&gt; header" />
     <MESSAGE value="completed test examples for std::minmax_element in &lt;algorithm&gt; header" />
     <MESSAGE value="completed test examples for std::find_end in &lt;algorithm&gt; header" />
     <MESSAGE value="completed test examples for std::fill and std::fill_n in &lt;algorithm&gt; header" />
@@ -560,7 +597,8 @@
     <MESSAGE value="completed two (2) binary tree problems (226 and 617)" />
     <MESSAGE value="completed two (2) medium-level linked list problems (328 and 1019)" />
     <MESSAGE value="completed three (3) medium-level linked list problems (92, 143, 817)" />
-    <option name="LAST_COMMIT_MESSAGE" value="completed three (3) medium-level linked list problems (92, 143, 817)" />
+    <MESSAGE value="completed three (3) medium-level linked list problems (114, 725, 1367 twice)" />
+    <option name="LAST_COMMIT_MESSAGE" value="completed three (3) medium-level linked list problems (114, 725, 1367 twice)" />
   </component>
   <component name="WindowStateProjectService">
     <state x="220" y="12" key="#Plugins" timestamp="1582917778994">
@@ -571,10 +609,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="180" y="44" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1586888705942" />
-    <state x="290" y="0" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog" timestamp="1586889690280">
+    <state x="290" y="0" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog" timestamp="1588434813158">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="290" y="0" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog/0.0.1440.900@0.0.1440.900" timestamp="1586889690280" />
+    <state x="290" y="0" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog/0.0.1440.900@0.0.1440.900" timestamp="1588434813158" />
     <state x="220" y="64" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1583335723532">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -583,10 +621,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="419" y="277" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1440.900@0.0.1440.900" timestamp="1586187937689" />
-    <state x="421" y="23" width="1019" height="822" key="CommitChangelistDialog2" timestamp="1587322919557">
-      <screen x="0" y="23" width="1440" height="822" />
+    <state x="421" y="54" width="1019" height="822" key="CommitChangelistDialog2" timestamp="1587322944903">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="421" y="54" width="1019" height="823" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1586577004017" />
+    <state x="421" y="54" width="1019" height="823" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1587322944903" />
     <state x="421" y="23" width="1019" height="822" key="CommitChangelistDialog2/0.23.1440.822@0.23.1440.822" timestamp="1587322919557" />
     <state x="169" y="169" key="FileChooserDialogImpl" timestamp="1585202293908">
       <screen x="0" y="0" width="1440" height="900" />
@@ -612,20 +650,22 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="251" height="702" key="HiddenNamespacesPopup/0.0.1440.900@0.0.1440.900" timestamp="1586888734302" />
-    <state x="224" y="23" key="SettingsEditor" timestamp="1586890273860">
-      <screen x="0" y="23" width="1440" height="821" />
+    <state x="160" y="0" key="SettingsEditor" timestamp="1588435220866">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="106" y="3" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1586196587016" />
-    <state x="224" y="23" key="SettingsEditor/0.23.1440.821@0.23.1440.821" timestamp="1586890273860" />
+    <state x="160" y="0" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1588435220866" />
+    <state x="224" y="23" key="SettingsEditor/0.23.1440.821@0.23.1440.821" timestamp="1588430422300" />
     <state x="229" y="89" key="SettingsEditor/0.23.1440.823@0.23.1440.823" timestamp="1582344219968" />
-    <state x="220" y="127" key="Vcs.Push.Dialog.v2" timestamp="1586577008554">
+    <state x="220" y="127" key="Vcs.Push.Dialog.v2" timestamp="1587322948530">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="220" y="127" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1586577008554" />
-    <state x="358" y="282" key="com.intellij.ide.util.TipDialog" timestamp="1585278655095">
+    <state x="220" y="127" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1587322948530" />
+    <state x="358" y="278" key="com.intellij.ide.util.TipDialog" timestamp="1588471608746">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="358" y="282" key="com.intellij.ide.util.TipDialog/0.0.1440.900@0.0.1440.900" timestamp="1585278655095" />
+    <state x="358" y="278" key="com.intellij.ide.util.TipDialog/0.0.1440.900@0.0.1440.900" timestamp="1588471608746" />
+    <state x="358" y="278" key="com.intellij.ide.util.TipDialog/0.23.1440.821@0.23.1440.821" timestamp="1588431196596" />
+    <state x="358" y="278" key="com.intellij.ide.util.TipDialog/0.23.1440.822@0.23.1440.822" timestamp="1588432371217" />
     <state x="217" y="322" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1585202417627">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
