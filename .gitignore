@@ -1,0 +1,9 @@
+# Created by .ignore support plugin (hsz.mobi)
+.gitignore
+src/C++_STL_Practice/C++17 New Features/filesystem library/modifiers/f1/f2/f3/
+src/C++_STL_Practice/C++17 New Features/filesystem library/newDir1/
+src/C++_STL_Practice/C++17 New Features/filesystem library/newDir2/
+src/C++_STL_Practice/C++17 New Features/filesystem library/textfile.txt
+src/Java_Functional_Programming_Practice/chapter_1_Hello_Lambda_Expressions.class
+src/cmake-build-debug/
+src/newDir3/
