@@ -59,17 +59,12 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="56de6c19-2e05-45cd-903c-08b07618f058" name="Default Changelist" comment="-created new practice directory for functional expressions in Java &#10;-practiced with chapter 1 (lambda expressions)">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/composerJson.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LeetCode/Trees/543_Diameter_of_Binary_Tree_1.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LeetCode/Trees/543_Diameter_of_Binary_Tree_2.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LeetCode/Trees/872_Leaf-Similar_Trees.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LeetCode/Trees/965_Univalued_Binary_Tree.cpp" afterDir="false" />
+    <list default="true" id="56de6c19-2e05-45cd-903c-08b07618f058" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/C++_STL_Practice/type_traits/a.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/C++_STL_Practice/type_traits/primary_types.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/Software_Engineering_Interview.time" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Software_Engineering_Interview.time" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LeetCode/Trees/a.out" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/Trees/a.out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/C++_STL_Practice/C++17 New Features/any_example.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/C++_STL_Practice/C++17 New Features/any_example.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -157,7 +152,7 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.build" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.completion" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -276,7 +271,13 @@
       <workItem from="1588481089464" duration="140000" />
       <workItem from="1588539339927" duration="101000" />
       <workItem from="1588599404991" duration="170000" />
-      <workItem from="1588599618913" duration="10265000" />
+      <workItem from="1588599618913" duration="10324000" />
+      <workItem from="1588644296613" duration="71000" />
+      <workItem from="1588644407338" duration="105000" />
+      <workItem from="1588686407056" duration="123000" />
+      <workItem from="1588789351943" duration="81000" />
+      <workItem from="1588789777136" duration="2643000" />
+      <workItem from="1588795876670" duration="2334000" />
     </task>
     <task id="LOCAL-00001" summary="completed search_example.cpp, which is a search function example under the header&lt;algorithm&gt;">
       <created>1582349430985</created>
@@ -558,7 +559,14 @@
       <option name="project" value="LOCAL" />
       <updated>1588472089440</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="completed three (3) binary tree problems (543, 872, 965)">
+      <created>1588615140371</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1588615140371</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -578,7 +586,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="completed test examples for std::find_end in &lt;algorithm&gt; header" />
     <MESSAGE value="completed test examples for std::fill and std::fill_n in &lt;algorithm&gt; header" />
     <MESSAGE value="completed test examples for std::count and std::count_if in &lt;algorithm&gt; header" />
     <MESSAGE value="completed test examples for std::merge in &lt;algorithm&gt; header" />
@@ -603,7 +610,8 @@
     <MESSAGE value="completed three (3) medium-level linked list problems (92, 143, 817)" />
     <MESSAGE value="completed three (3) medium-level linked list problems (114, 725, 1367 twice)" />
     <MESSAGE value="-created new practice directory for functional expressions in Java &#10;-practiced with chapter 1 (lambda expressions)" />
-    <option name="LAST_COMMIT_MESSAGE" value="-created new practice directory for functional expressions in Java &#10;-practiced with chapter 1 (lambda expressions)" />
+    <MESSAGE value="completed three (3) binary tree problems (543, 872, 965)" />
+    <option name="LAST_COMMIT_MESSAGE" value="completed three (3) binary tree problems (543, 872, 965)" />
   </component>
   <component name="WindowStateProjectService">
     <state x="220" y="12" key="#Plugins" timestamp="1582917778994">
@@ -618,24 +626,24 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="290" y="0" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog/0.0.1440.900@0.0.1440.900" timestamp="1588434813158" />
-    <state x="220" y="64" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1583335723532">
+    <state x="220" y="64" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1588686413026">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="220" y="64" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1440.900@0.0.1440.900" timestamp="1583335723532" />
+    <state x="220" y="64" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1440.900@0.0.1440.900" timestamp="1588686413026" />
     <state x="419" y="277" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1586187937689">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="419" y="277" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1440.900@0.0.1440.900" timestamp="1586187937689" />
-    <state x="421" y="54" width="1019" height="821" key="CommitChangelistDialog2" timestamp="1588612903704">
+    <state x="421" y="54" width="1019" height="821" key="CommitChangelistDialog2" timestamp="1588615140130">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="421" y="54" width="1019" height="823" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1588612903704" />
+    <state x="421" y="54" width="1019" height="823" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1588615140130" />
     <state x="421" y="23" width="1019" height="821" key="CommitChangelistDialog2/0.23.1440.821@0.23.1440.821" timestamp="1588472088996" />
     <state x="421" y="23" width="1019" height="822" key="CommitChangelistDialog2/0.23.1440.822@0.23.1440.822" timestamp="1587322919557" />
-    <state x="169" y="169" key="FileChooserDialogImpl" timestamp="1588481250890">
+    <state x="169" y="169" key="FileChooserDialogImpl" timestamp="1588686530304">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="169" y="169" key="FileChooserDialogImpl/0.0.1440.900@0.0.1440.900" timestamp="1588481250890" />
+    <state x="169" y="169" key="FileChooserDialogImpl/0.0.1440.900@0.0.1440.900" timestamp="1588686530304" />
     <state width="1378" height="229" key="GridCell.Tab.0.bottom" timestamp="1586889671318">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -656,20 +664,20 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="251" height="702" key="HiddenNamespacesPopup/0.0.1440.900@0.0.1440.900" timestamp="1586888734302" />
-    <state x="160" y="0" key="SettingsEditor" timestamp="1588435220866">
+    <state x="160" y="0" key="SettingsEditor" timestamp="1588790520258">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="160" y="0" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1588435220866" />
-    <state x="224" y="23" key="SettingsEditor/0.23.1440.821@0.23.1440.821" timestamp="1588430422300" />
+    <state x="160" y="0" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1588790520258" />
+    <state x="224" y="23" key="SettingsEditor/0.23.1440.821@0.23.1440.821" timestamp="1588790380075" />
     <state x="229" y="89" key="SettingsEditor/0.23.1440.823@0.23.1440.823" timestamp="1582344219968" />
-    <state x="220" y="127" key="Vcs.Push.Dialog.v2" timestamp="1588472093617">
+    <state x="220" y="127" key="Vcs.Push.Dialog.v2" timestamp="1588615143624">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="220" y="127" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1588472093617" />
-    <state x="358" y="278" key="com.intellij.ide.util.TipDialog" timestamp="1588481100126">
+    <state x="220" y="127" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1588615143624" />
+    <state x="358" y="278" key="com.intellij.ide.util.TipDialog" timestamp="1588686407041">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="358" y="278" key="com.intellij.ide.util.TipDialog/0.0.1440.900@0.0.1440.900" timestamp="1588481100126" />
+    <state x="358" y="278" key="com.intellij.ide.util.TipDialog/0.0.1440.900@0.0.1440.900" timestamp="1588686407041" />
     <state x="358" y="278" key="com.intellij.ide.util.TipDialog/0.23.1440.821@0.23.1440.821" timestamp="1588431196596" />
     <state x="358" y="278" key="com.intellij.ide.util.TipDialog/0.23.1440.822@0.23.1440.822" timestamp="1588432371217" />
     <state x="217" y="322" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1585202417627">

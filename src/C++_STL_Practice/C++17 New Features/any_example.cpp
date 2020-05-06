@@ -15,12 +15,12 @@ using namespace std;
 /* template< class ValueType, class... Args >
  * std::decay_t<ValueType>& emplace( Args&&... args );
 */
- /* template< class ValueType, class U, class... Args >
-  * std::decay_t<ValueType>& emplace( std::initializer_list<U> il, Args&&... args );
- */
+/* template< class ValueType, class U, class... Args >
+* std::decay_t<ValueType>& emplace( std::initializer_list<U> il, Args&&... args );
+*/
 
- //std::any::reset
- /* void reset() noexcept; */
+//std::any::reset
+/* void reset() noexcept; */
 
 //std::any::swap
 /* void swap(any& other) noexcept; */
