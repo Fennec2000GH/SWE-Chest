@@ -60,11 +60,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="56de6c19-2e05-45cd-903c-08b07618f058" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/C++_STL_Practice/type_traits/a.out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/C++_STL_Practice/type_traits/primary_types.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/C++_STL_Practice/type_traits/composite_types.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/Software_Engineering_Interview.time" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Software_Engineering_Interview.time" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/C++_STL_Practice/C++17 New Features/any_example.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/C++_STL_Practice/C++17 New Features/any_example.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/C++_STL_Practice/type_traits/a.out" beforeDir="false" afterPath="$PROJECT_DIR$/src/C++_STL_Practice/type_traits/a.out" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -277,7 +276,7 @@
       <workItem from="1588686407056" duration="123000" />
       <workItem from="1588789351943" duration="81000" />
       <workItem from="1588789777136" duration="2643000" />
-      <workItem from="1588795876670" duration="2334000" />
+      <workItem from="1588795876670" duration="5812000" />
     </task>
     <task id="LOCAL-00001" summary="completed search_example.cpp, which is a search function example under the header&lt;algorithm&gt;">
       <created>1582349430985</created>
@@ -566,7 +565,14 @@
       <option name="project" value="LOCAL" />
       <updated>1588615140371</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="-created directory for &lt;type_traits&gt; header sample code &#10;practiced functions relevant to std::is_void, std::is_null_pointer, std::is_integral, and std::is_floating_point">
+      <created>1588798336842</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1588798336842</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -586,7 +592,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="completed test examples for std::fill and std::fill_n in &lt;algorithm&gt; header" />
     <MESSAGE value="completed test examples for std::count and std::count_if in &lt;algorithm&gt; header" />
     <MESSAGE value="completed test examples for std::merge in &lt;algorithm&gt; header" />
     <MESSAGE value="completed test examples for std::clamp (exclusive to C++17) in &lt;algorithm&gt; header, as well as confirm in std::merge that original vectors used in merging remain unchanged" />
@@ -611,7 +616,8 @@
     <MESSAGE value="completed three (3) medium-level linked list problems (114, 725, 1367 twice)" />
     <MESSAGE value="-created new practice directory for functional expressions in Java &#10;-practiced with chapter 1 (lambda expressions)" />
     <MESSAGE value="completed three (3) binary tree problems (543, 872, 965)" />
-    <option name="LAST_COMMIT_MESSAGE" value="completed three (3) binary tree problems (543, 872, 965)" />
+    <MESSAGE value="-created directory for &lt;type_traits&gt; header sample code &#10;practiced functions relevant to std::is_void, std::is_null_pointer, std::is_integral, and std::is_floating_point" />
+    <option name="LAST_COMMIT_MESSAGE" value="-created directory for &lt;type_traits&gt; header sample code &#10;practiced functions relevant to std::is_void, std::is_null_pointer, std::is_integral, and std::is_floating_point" />
   </component>
   <component name="WindowStateProjectService">
     <state x="220" y="12" key="#Plugins" timestamp="1582917778994">
@@ -634,10 +640,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="419" y="277" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1440.900@0.0.1440.900" timestamp="1586187937689" />
-    <state x="421" y="54" width="1019" height="821" key="CommitChangelistDialog2" timestamp="1588615140130">
+    <state x="421" y="54" width="1019" height="821" key="CommitChangelistDialog2" timestamp="1588798336448">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="421" y="54" width="1019" height="823" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1588615140130" />
+    <state x="421" y="54" width="1019" height="823" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1588798336448" />
     <state x="421" y="23" width="1019" height="821" key="CommitChangelistDialog2/0.23.1440.821@0.23.1440.821" timestamp="1588472088996" />
     <state x="421" y="23" width="1019" height="822" key="CommitChangelistDialog2/0.23.1440.822@0.23.1440.822" timestamp="1587322919557" />
     <state x="169" y="169" key="FileChooserDialogImpl" timestamp="1588686530304">
@@ -670,10 +676,10 @@
     <state x="160" y="0" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1588790520258" />
     <state x="224" y="23" key="SettingsEditor/0.23.1440.821@0.23.1440.821" timestamp="1588790380075" />
     <state x="229" y="89" key="SettingsEditor/0.23.1440.823@0.23.1440.823" timestamp="1582344219968" />
-    <state x="220" y="127" key="Vcs.Push.Dialog.v2" timestamp="1588615143624">
+    <state x="220" y="127" key="Vcs.Push.Dialog.v2" timestamp="1588798339913">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="220" y="127" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1588615143624" />
+    <state x="220" y="127" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1588798339913" />
     <state x="358" y="278" key="com.intellij.ide.util.TipDialog" timestamp="1588686407041">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
