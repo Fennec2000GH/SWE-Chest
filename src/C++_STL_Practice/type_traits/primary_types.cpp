@@ -5,6 +5,7 @@
 #include <iostream>
 #include <string>
 #include <type_traits>
+#include <vector>
 using namespace std;
 
 //std::is_void
@@ -145,4 +146,68 @@ TEST_CASE("is_floating_point") {
 
 }
 
+//std::is_array
+/* Checks whether T is an array type. Provides the member constant value which is equal to true, if T is an array type.
+ * Otherwise, value is equal to false.*/
 
+/* value
+true if T is an array type , false otherwise
+*/
+
+/* operator bool
+converts the object to bool, returns value
+*/
+
+/* operator()
+returns value
+*/
+
+TEST_CASE("is_array") {
+    int[] int_arr = {0, 1, 2, 3, 4, 5};
+    vector<char> char_vec = {'c', 'h', 'a', 'r'};
+    double d = 0.1234567890;
+
+    cout << boolalpha << "Is int array an array? " << is_array<decltype(int_array)>::value << endl;
+    cout << "Is char vector an array? " << is_array<decltype(char_vec)>::value << endl;
+    cout << "Is double an array? " << is_array<decltype(d)>::value << endl;
+
+    CHECK(is_array<int[]>());
+    CHECK(is_array<vector<char>>());
+    CHECK_FALSE(is_array<double>());
+
+}
+
+//std::is_enum
+/* Checks whether T is an enumeration type. Provides the member constant value which is equal to true, if T is an
+ * enumeration type. Otherwise, value is equal to false.
+*/
+
+/* value
+true if T is an enumeration type , false otherwise
+*/
+
+/* operator bool
+converts the object to bool, returns value
+*/
+
+/* operator()
+returns value
+*/
+
+TEST_CASE("is_enum") {
+    class C {};
+    enum E {};
+    enum class EC : unsigned {};
+    double d = 42.42;
+
+    cout << boolalpha << "Is class an enum? " << is_enum<C>::value << endl;
+    cout << "Is enum an enum? " << is_enum<E>::value << endl;
+    cout << "Is enum class an enum?" << is_enum<EC>::value << endl;
+    cout << "Is double an enum? " << s_enum<decltype(d)>::value << endl;
+
+    CHECK_FALSE(is_enum<C>());
+    CHECK(is_enum<enum>()); 
+    CHECK(is_enum<enum class>());
+    CHECK_FALSE(is_enum<double>());
+
+}
