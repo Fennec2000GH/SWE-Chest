@@ -1,4 +1,4 @@
-# Software_Engineering_Interview
+# Software Engineering Interview
 Diverse variety of commonly used topics for software developer job / internship interviews. 
 
 **Demos for \<algorithm\> functions**
