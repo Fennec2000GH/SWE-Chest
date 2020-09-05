@@ -1,4 +1,0 @@
-
-This directory serves as a sub-repository for practicing with functional programming techniques using Java. Each .java
-file follows a specific chapter in the book, Functional Programming in Java - Harnessing the Power of Java 8 Lambda 8
-Expressions, part of The Pragmatic Programmers series.
