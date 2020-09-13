@@ -59,279 +59,24 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="56de6c19-2e05-45cd-903c-08b07618f058" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Boost Examples/Serialization.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Boost Examples/a.out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Boost Examples/boost_thread.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/C# Examples/.vscode/launch.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/C# Examples/Arrays.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/C# Examples/Arrays.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/C# Examples/BaseClass.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/C# Examples/BaseClass.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/C# Examples/Class.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/C# Examples/Class.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/C# Examples/ComparingStrings.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/C# Examples/ComparingStrings.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/C# Examples/ConstantsAndLiterals.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/C# Examples/ConstantsAndLiterals.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/C# Examples/CustomException.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/C# Examples/CustomException.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/C# Examples/DataTypes.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/C# Examples/DataTypes.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/C# Examples/DeclaringConstants.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/C# Examples/DeclaringConstants.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/C# Examples/DynamicPolymorphism.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/C# Examples/DynamicPolymorphism.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/C# Examples/Enum.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/C# Examples/Enum.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/C# Examples/EscapeChar.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/C# Examples/EscapeChar.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/C# Examples/ExceptionHandling.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/C# Examples/ExceptionHandling.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/C# Examples/ExplicitConversion.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/C# Examples/ExplicitConversion.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/C# Examples/File.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/C# Examples/File.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/C# Examples/ForEach.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/C# Examples/ForEach.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/C# Examples/FunctionOverloading.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/C# Examples/FunctionOverloading.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/C# Examples/HelloWorld.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/C# Examples/HelloWorld.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/C# Examples/Inheritance.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/C# Examples/Inheritance.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/C# Examples/Interface.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/C# Examples/Interface.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/C# Examples/InternalAccess.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/C# Examples/InternalAccess.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/C# Examples/JoiningStrings.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/C# Examples/JoiningStrings.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/C# Examples/Loops.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/C# Examples/Loops.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/C# Examples/MemberFunctions.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/C# Examples/MemberFunctions.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/C# Examples/Methods.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/C# Examples/Methods.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/C# Examples/MoreStructures.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/C# Examples/MoreStructures.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/C# Examples/MultipleInheritance.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/C# Examples/MultipleInheritance.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/C# Examples/NullableCoalesce.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/C# Examples/NullableCoalesce.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/C# Examples/Nullables.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/C# Examples/Nullables.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/C# Examples/OperatorOverloading.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/C# Examples/OperatorOverloading.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/C# Examples/PreprocessorDirective.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/C# Examples/PreprocessorDirective.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/C# Examples/PrivateAccess.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/C# Examples/PrivateAccess.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/C# Examples/PublicAccess.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/C# Examples/PublicAccess.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/C# Examples/Rectangle.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/C# Examples/Rectangle.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/C# Examples/RecursiveMethod.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/C# Examples/RecursiveMethod.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/C# Examples/Regex.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/C# Examples/Regex.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/C# Examples/String.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/C# Examples/String.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/C# Examples/StringContainsString.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/C# Examples/StringContainsString.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/C# Examples/StringConversion.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/C# Examples/StringConversion.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/C# Examples/Structures.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/C# Examples/Structures.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/C# Examples/Substring.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/C# Examples/Substring.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/C# Examples/Variables.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/C# Examples/Variables.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/C# Examples/VirtualFunction.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/C# Examples/VirtualFunction.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/C# Examples/test.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/C++ STL Examples/C++17 New Features/a.out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/C++ STL Examples/C++17 New Features/any_example.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/C++ STL Examples/C++17 New Features/byte_example.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/C++ STL Examples/C++17 New Features/filesystem library/a.out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/C++ STL Examples/C++17 New Features/filesystem library/copy_options.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/C++ STL Examples/C++17 New Features/filesystem library/file_status_example.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/C++ STL Examples/C++17 New Features/filesystem library/file_type_example.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/C++ STL Examples/C++17 New Features/filesystem library/modifiers/f1/f2/textfile2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/C++ STL Examples/C++17 New Features/filesystem library/path_example.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/C++ STL Examples/C++17 New Features/filesystem library/space_info.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/C++ STL Examples/C++17 New Features/optional_example.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/C++ STL Examples/C++17 New Features/variant_example.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/C++ STL Examples/algorithms/a.out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/C++ STL Examples/algorithms/adjacent_find_example.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/C++ STL Examples/algorithms/binary_search_example.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/C++ STL Examples/algorithms/bound_example.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/C++ STL Examples/algorithms/clamp_example.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/C++ STL Examples/algorithms/count_example.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/C++ STL Examples/algorithms/fill_example.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/C++ STL Examples/algorithms/find_end_example.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/C++ STL Examples/algorithms/generate_example.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/C++ STL Examples/algorithms/includes_example.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/C++ STL Examples/algorithms/merge_example.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/C++ STL Examples/algorithms/minmax_element_example.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/C++ STL Examples/algorithms/minmax_example.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/C++ STL Examples/algorithms/mismatch_example.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/C++ STL Examples/algorithms/move_example.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/C++ STL Examples/algorithms/replace_example.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/C++ STL Examples/algorithms/rotate_example.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/C++ STL Examples/algorithms/search_example.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/C++ STL Examples/containers/a.out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/C++ STL Examples/containers/array_example.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/C++ STL Examples/containers/deque_example.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/C++ STL Examples/containers/unordered_map_example.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/C++ STL Examples/containers/unordered_multiset_example.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/C++ STL Examples/containers/valarray_example.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/C++ STL Examples/type_traits/a.out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/C++ STL Examples/type_traits/composite_types.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/C++ STL Examples/type_traits/primary_types.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Competitive Programming/Course Practice/Jill-Rides-Again.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Competitive Programming/Course Practice/One-Two-Three.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Competitive Programming/Course Practice/a.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Competitive Programming/Kadanes_Algorithm.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Competitive Programming/a.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Google Guava Examples/Datasets/wine.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Google Guava Examples/OrderingExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LeetCode/Arrays/4_Median_of_Two_Sorted_Arrays.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LeetCode/Linked List/24_Swap_Nodes_in_Pairs.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LeetCode/String/ZigZag_Conversion.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LeetCode/String/a.exe" afterDir="false" />
+    <list default="true" id="56de6c19-2e05-45cd-903c-08b07618f058" name="Default Changelist" comment="LeetCode questions 4, 6, and 24 complete">
+      <change afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/leetcode/editor.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Competitive Programming/Homework Sets/Backspace.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Competitive Programming/Homework Sets/Big Maximum Sum.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Competitive Programming/Homework Sets/Hotels Along the Croatian Coast.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Competitive Programming/Homework Sets/Maximum Sub-sequence Product.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Competitive Programming/Homework Sets/Maximum Sub-sequence Product.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Competitive Programming/Homework Sets/TEX Quotes.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Competitive Programming/Homework Sets/a.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Competitive Programming/scratch.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LeetCode/String/6_ZigZag_Conversion.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Software_Engineering_Interview.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Software_Engineering_Interview.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Boost_Practice/Serialization.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Boost_Practice/a.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Boost_Practice/boost_thread.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/C#_Practice/.vscode/launch.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/C#_Practice/Arrays.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/C#_Practice/Arrays.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/C#_Practice/BaseClass.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/C#_Practice/BaseClass.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/C#_Practice/Class.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/C#_Practice/Class.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/C#_Practice/ComparingStrings.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/C#_Practice/ComparingStrings.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/C#_Practice/ConstantsAndLiterals.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/C#_Practice/ConstantsAndLiterals.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/C#_Practice/CustomException.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/C#_Practice/CustomException.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/C#_Practice/DataTypes.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/C#_Practice/DataTypes.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/C#_Practice/DeclaringConstants.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/C#_Practice/DeclaringConstants.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/C#_Practice/DynamicPolymorphism.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/C#_Practice/DynamicPolymorphism.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/C#_Practice/Enum.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/C#_Practice/Enum.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/C#_Practice/EscapeChar.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/C#_Practice/EscapeChar.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/C#_Practice/ExceptionHandling.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/C#_Practice/ExceptionHandling.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/C#_Practice/ExplicitConversion.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/C#_Practice/ExplicitConversion.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/C#_Practice/File.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/C#_Practice/File.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/C#_Practice/ForEach.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/C#_Practice/ForEach.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/C#_Practice/FunctionOverloading.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/C#_Practice/FunctionOverloading.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/C#_Practice/HelloWorld.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/C#_Practice/HelloWorld.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/C#_Practice/Inheritance.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/C#_Practice/Inheritance.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/C#_Practice/Interface.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/C#_Practice/Interface.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/C#_Practice/InternalAccess.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/C#_Practice/InternalAccess.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/C#_Practice/JoiningStrings.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/C#_Practice/JoiningStrings.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/C#_Practice/Loops.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/C#_Practice/Loops.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/C#_Practice/MemberFunctions.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/C#_Practice/MemberFunctions.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/C#_Practice/Methods.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/C#_Practice/Methods.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/C#_Practice/MoreStructures.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/C#_Practice/MoreStructures.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/C#_Practice/MultipleInheritance.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/C#_Practice/MultipleInheritance.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/C#_Practice/NullableCoalesce.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/C#_Practice/NullableCoalesce.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/C#_Practice/Nullables.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/C#_Practice/Nullables.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/C#_Practice/OperatorOverloading.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/C#_Practice/OperatorOverloading.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/C#_Practice/PreprocessorDirective.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/C#_Practice/PreprocessorDirective.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/C#_Practice/PrivateAccess.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/C#_Practice/PrivateAccess.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/C#_Practice/PublicAccess.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/C#_Practice/PublicAccess.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/C#_Practice/Rectangle.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/C#_Practice/Rectangle.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/C#_Practice/RecursiveMethod.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/C#_Practice/RecursiveMethod.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/C#_Practice/Regex.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/C#_Practice/Regex.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/C#_Practice/String.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/C#_Practice/String.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/C#_Practice/StringContainsString.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/C#_Practice/StringContainsString.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/C#_Practice/StringConversion.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/C#_Practice/StringConversion.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/C#_Practice/Structures.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/C#_Practice/Structures.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/C#_Practice/Substring.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/C#_Practice/Substring.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/C#_Practice/Variables.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/C#_Practice/Variables.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/C#_Practice/VirtualFunction.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/C#_Practice/VirtualFunction.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/C#_Practice/test.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/C++_STL_Practice/C++17 New Features/a.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/C++_STL_Practice/C++17 New Features/any_example.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/C++_STL_Practice/C++17 New Features/byte_example.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/C++_STL_Practice/C++17 New Features/filesystem library/a.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/C++_STL_Practice/C++17 New Features/filesystem library/copy_options.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/C++_STL_Practice/C++17 New Features/filesystem library/file_status_example.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/C++_STL_Practice/C++17 New Features/filesystem library/file_type_example.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/C++_STL_Practice/C++17 New Features/filesystem library/modifiers/f1/f2/textfile2.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/C++_STL_Practice/C++17 New Features/filesystem library/path_example.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/C++_STL_Practice/C++17 New Features/filesystem library/space_info.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/C++_STL_Practice/C++17 New Features/optional_example.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/C++_STL_Practice/C++17 New Features/variant_example.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/C++_STL_Practice/algorithms/a.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/C++_STL_Practice/algorithms/adjacent_find_example.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/C++_STL_Practice/algorithms/binary_search_example.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/C++_STL_Practice/algorithms/bound_example.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/C++_STL_Practice/algorithms/clamp_example.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/C++_STL_Practice/algorithms/count_example.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/C++_STL_Practice/algorithms/fill_example.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/C++_STL_Practice/algorithms/find_end_example.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/C++_STL_Practice/algorithms/generate_example.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/C++_STL_Practice/algorithms/includes_example.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/C++_STL_Practice/algorithms/merge_example.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/C++_STL_Practice/algorithms/minmax_element_example.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/C++_STL_Practice/algorithms/minmax_example.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/C++_STL_Practice/algorithms/mismatch_example.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/C++_STL_Practice/algorithms/move_example.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/C++_STL_Practice/algorithms/replace_example.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/C++_STL_Practice/algorithms/rotate_example.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/C++_STL_Practice/algorithms/search_example.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/C++_STL_Practice/containers/a.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/C++_STL_Practice/containers/array_example.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/C++_STL_Practice/containers/deque_example.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/C++_STL_Practice/containers/unordered_map_example.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/C++_STL_Practice/containers/unordered_multiset_example.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/C++_STL_Practice/containers/valarray_example.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/C++_STL_Practice/type_traits/a.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/C++_STL_Practice/type_traits/composite_types.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/C++_STL_Practice/type_traits/primary_types.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Google_Guava_Practice/Datasets/wine.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Google_Guava_Practice/OrderingExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Java_Functional_Programming_Practice/About.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Java_Functional_Programming_Practice/chapter_1_Hello_Lambda_Expressions.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Competitive Programming/Course Practice/Jill-Rides-Again.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Competitive Programming/Practice Contests/Jill-Rides-Again.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Competitive Programming/Course Practice/One-Two-Three.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Competitive Programming/Practice Contests/One-Two-Three.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Competitive Programming/Course Practice/a.exe" beforeDir="false" afterPath="$PROJECT_DIR$/src/Competitive Programming/Practice Contests/a.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Competitive Programming/a.exe" beforeDir="false" afterPath="$PROJECT_DIR$/src/Competitive Programming/a.exe" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -371,6 +116,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="JupyterTrust" id="275be53e-bbe0-48a1-bc91-5284c91f1bd5" />
   <component name="MacroExpansionManager">
     <option name="directoryName" value="OCJkLjCs" />
   </component>
@@ -414,7 +160,8 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="leetcode.id" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -451,9 +198,9 @@
       <setting name="fixLineNumbers" value="false" />
       <method v="2" />
     </configuration>
-    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
+    <configuration default="true" type="Application" factoryName="Application">
       <method v="2">
-        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+        <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
@@ -465,14 +212,6 @@
       <method v="2">
         <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
-    </configuration>
-    <configuration default="true" type="aws.lambda" factoryName="Remote">
-      <option name="credentialProviderId" />
-      <option name="regionId" />
-      <option name="functionName" />
-      <option name="input" />
-      <option name="inputIsFile" value="false" />
-      <method v="2" />
     </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -572,7 +311,18 @@
       <workItem from="1599176709205" duration="568000" />
       <workItem from="1599178816535" duration="15135000" />
       <workItem from="1599230464059" duration="3399000" />
-      <workItem from="1599272153045" duration="4677000" />
+      <workItem from="1599272153045" duration="4903000" />
+      <workItem from="1599659413771" duration="3339000" />
+      <workItem from="1599697993650" duration="596000" />
+      <workItem from="1599705683944" duration="1070000" />
+      <workItem from="1599706866778" duration="101000" />
+      <workItem from="1599709667355" duration="5908000" />
+      <workItem from="1599753899485" duration="32000" />
+      <workItem from="1599753965725" duration="29302000" />
+      <workItem from="1599831798240" duration="4768000" />
+      <workItem from="1599853216842" duration="15865000" />
+      <workItem from="1599871104248" duration="2843000" />
+      <workItem from="1599874333156" duration="262000" />
     </task>
     <task id="LOCAL-00001" summary="completed search_example.cpp, which is a search function example under the header&lt;algorithm&gt;">
       <created>1582349430985</created>
@@ -868,7 +618,14 @@
       <option name="project" value="LOCAL" />
       <updated>1588798336842</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="LeetCode questions 4, 6, and 24 complete">
+      <created>1599278262432</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1599278262432</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -888,7 +645,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="completed test examples for std::count and std::count_if in &lt;algorithm&gt; header" />
     <MESSAGE value="completed test examples for std::merge in &lt;algorithm&gt; header" />
     <MESSAGE value="completed test examples for std::clamp (exclusive to C++17) in &lt;algorithm&gt; header, as well as confirm in std::merge that original vectors used in merging remain unchanged" />
     <MESSAGE value="completed test examples for std::array with its member functions" />
@@ -913,35 +669,29 @@
     <MESSAGE value="-created new practice directory for functional expressions in Java &#10;-practiced with chapter 1 (lambda expressions)" />
     <MESSAGE value="completed three (3) binary tree problems (543, 872, 965)" />
     <MESSAGE value="-created directory for &lt;type_traits&gt; header sample code &#10;practiced functions relevant to std::is_void, std::is_null_pointer, std::is_integral, and std::is_floating_point" />
-    <option name="LAST_COMMIT_MESSAGE" value="-created directory for &lt;type_traits&gt; header sample code &#10;practiced functions relevant to std::is_void, std::is_null_pointer, std::is_integral, and std::is_floating_point" />
+    <MESSAGE value="LeetCode questions 4, 6, and 24 complete" />
+    <option name="LAST_COMMIT_MESSAGE" value="LeetCode questions 4, 6, and 24 complete" />
   </component>
   <component name="WindowStateProjectService">
     <state x="505" y="279" key="FileChooserDialogImpl" timestamp="1599165405777">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="505" y="279" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1599165405777" />
-    <state x="375" y="14" key="SettingsEditor" timestamp="1599177268039">
+    <state x="375" y="14" key="SettingsEditor" timestamp="1599871167814">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="375" y="14" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1599177268039" />
+    <state x="375" y="14" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1599871167814" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1599278268453">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1599278268453" />
     <state x="443" y="318" width="558" height="506" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1599165416083">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="443" y="318" width="558" height="506" key="org.intellij.images.editor.actions.BackgroundImageDialog/0.0.1536.824@0.0.1536.824" timestamp="1599165416083" />
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1599175137988">
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1599765965010">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1599175137988" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/src/Competitive Programming/Course Practice/One-Two-Three.cpp</url>
-          <line>1</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1599765965010" />
   </component>
 </project>
