@@ -60,33 +60,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="56de6c19-2e05-45cd-903c-08b07618f058" name="Default Changelist" comment="LeetCode questions 4, 6, and 24 complete">
-      <change afterPath="$PROJECT_DIR$/src/Competitive Programming/Homework Sets/HW1/Backspace.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Competitive Programming/Homework Sets/HW1/Big Maximum Sum.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Competitive Programming/Homework Sets/HW1/Hotels Along the Croatian Coast.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Competitive Programming/Homework Sets/HW1/Maximum Sub-sequence Product.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Competitive Programming/Homework Sets/HW1/Maximum Sub-sequence Product.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Competitive Programming/Homework Sets/HW1/TEX Quotes.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Competitive Programming/Homework Sets/HW1/a.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Competitive Programming/Homework Sets/HW2/Black Box.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Competitive Programming/Homework Sets/HW2/Game with string.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Competitive Programming/Homework Sets/HW2/Generalized Matrioshkas.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Competitive Programming/Homework Sets/HW2/Opposites Attract.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Competitive Programming/Homework Sets/HW2/Sim.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Competitive Programming/Homework Sets/HW2/a.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Competitive Programming/Homework Sets/HW2/a.out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Competitive Programming/Practice Contests/Escape From Stones.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Competitive Programming/Practice Contests/Parentheses Balance.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Competitive Programming/Homework Sets/HW2/HW2 tests.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Competitive Programming/Homework Sets/HW3/Inversions in an array.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Competitive Programming/Homework Sets/HW3/Kattis's Quest.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Competitive Programming/Homework Sets/HW3/Laptops.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Competitive Programming/Homework Sets/HW3/Letters.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Competitive Programming/Homework Sets/HW3/Soldiers.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Competitive Programming/Homework Sets/HW3/a.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Competitive Programming/Homework Sets/HW3/scratch.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Competitive Programming/Practice Contests/Chores.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Competitive Programming/Practice Contests/Majority Element.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Competitive Programming/Homework Sets/Backspace.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Competitive Programming/Homework Sets/Big Maximum Sum.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Competitive Programming/Homework Sets/Hotels Along the Croatian Coast.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Competitive Programming/Homework Sets/Maximum Sub-sequence Product.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Competitive Programming/Homework Sets/Maximum Sub-sequence Product.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Competitive Programming/Homework Sets/TEX Quotes.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Competitive Programming/Homework Sets/a.exe" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Competitive Programming/Practice Contests/a.exe" beforeDir="false" afterPath="$PROJECT_DIR$/src/Competitive Programming/Practice Contests/a.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Competitive Programming/a.exe" beforeDir="false" afterPath="$PROJECT_DIR$/src/Competitive Programming/a.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Competitive Programming/scratch.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Competitive Programming/scratch.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -208,9 +193,9 @@
       <setting name="fixLineNumbers" value="false" />
       <method v="2" />
     </configuration>
-    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
+    <configuration default="true" type="Application" factoryName="Application">
       <method v="2">
-        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+        <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
@@ -223,13 +208,12 @@
         <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="Remote">
-      <option name="USE_SOCKET_TRANSPORT" value="true" />
-      <option name="SERVER_MODE" value="false" />
-      <option name="SHMEM_ADDRESS" value="javadebug" />
-      <option name="HOST" value="localhost" />
-      <option name="PORT" value="5005" />
-      <option name="AUTO_RESTART" value="false" />
+    <configuration default="true" type="aws.lambda" factoryName="Remote">
+      <option name="credentialProviderId" />
+      <option name="regionId" />
+      <option name="functionName" />
+      <option name="input" />
+      <option name="inputIsFile" value="false" />
       <method v="2" />
     </configuration>
   </component>
@@ -355,6 +339,14 @@
       <workItem from="1600447112024" duration="886000" />
       <workItem from="1600461912830" duration="8981000" />
       <workItem from="1600471258542" duration="13903000" />
+      <workItem from="1600699288031" duration="3130000" />
+      <workItem from="1600748760290" duration="1915000" />
+      <workItem from="1600785290103" duration="5063000" />
+      <workItem from="1600813291640" duration="134000" />
+      <workItem from="1600820077952" duration="4978000" />
+      <workItem from="1601044139612" duration="7188000" />
+      <workItem from="1601060979320" duration="10974000" />
+      <workItem from="1601083171302" duration="6922000" />
     </task>
     <task id="LOCAL-00001" summary="completed search_example.cpp, which is a search function example under the header&lt;algorithm&gt;">
       <created>1582349430985</created>
@@ -725,9 +717,20 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="425" y="187" width="672" height="677" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1600480701751" />
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1599765965010">
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1600788781662">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1599765965010" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1600788781662" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/src/Competitive Programming/Practice Contests/Chores.cpp</url>
+          <line>5</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
