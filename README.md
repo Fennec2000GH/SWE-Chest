@@ -1,6 +1,7 @@
-# Software Engineering Interview
-Diverse variety of commonly used topics for software developer job / internship interviews. 
+# Software Engineering Chest
+Diverse variety of commonly used topics for software developer job / internship interviews and workshop demos for open-source projects / hackathons.
 
+## C++ Practice Snippets
 **Demos for \<algorithm\> functions**
 
 std::adjacent_find 
@@ -54,3 +55,8 @@ std::any
 std::optional 
 
 std::byte 
+
+## The Rust Programming Language Code
+Chapter 1 - 4
+demo for **diesel** crate with **SQLite**
+
